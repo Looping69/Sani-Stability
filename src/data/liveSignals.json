@@ -1,0 +1,243 @@
+{
+  "generatedAt": "2026-05-12T22:30:00.000Z",
+  "feedStatus": "bootstrap",
+  "feedMode": "curated-snapshot",
+  "indicators": {
+    "roads": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 3,
+      "summary": "Multiple mobility disruptions are active, driven by severe weather damage and corridor closures rather than a single national flashpoint.",
+      "sourceIds": [
+        "google-news-rss",
+        "sanews",
+        "sanral-reference"
+      ],
+      "evidence": [
+        {
+          "title": "South Africa declares natural disaster as flooding kills at least 10",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/ee9de87f657d64586da774b3a1f0bba8",
+          "publishedAt": "2026-05-12T15:52:31.000Z",
+          "matchedQuery": "South Africa road closures flooding",
+          "note": "Flooding affected six provinces and temporary closures were ordered in the Western Cape."
+        },
+        {
+          "title": "Sanral announces rolling N3 closures for blasting near Market Road",
+          "publisher": "The Witness",
+          "url": "https://witness.co.za/news/2026/05/05/sanral-announces-rolling-n3-closures-for-blasting-near-market-road/",
+          "publishedAt": "2026-05-05T00:00:00.000Z",
+          "matchedQuery": "South Africa N3 closure",
+          "note": "Scheduled N3 closures affect a major freight corridor."
+        },
+        {
+          "title": "Road closures be implemented for Freedom Day celebrations",
+          "publisher": "SAnews",
+          "url": "https://www.sanews.gov.za/south-africa/road-closures-be-implemented-freedom-day-celebrations",
+          "publishedAt": "2026-04-28T00:00:00.000Z",
+          "matchedQuery": "South Africa road closure protest",
+          "note": "Official event-driven closures are still relevant because they constrain alternate routes."
+        }
+      ]
+    },
+    "fuel": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 1,
+      "summary": "Price stress is high, but current official statements are reassuring on domestic supply continuity.",
+      "sourceIds": [
+        "google-news-rss",
+        "gov-fuel"
+      ],
+      "evidence": [
+        {
+          "title": "Mineral and Petroleum Resources reassures South Africans of stable fuel supply amid global energy uncertainty",
+          "publisher": "South African Government",
+          "url": "https://www.gov.za/news/media-statements/mineral-and-petroleum-resources-reassures-south-africans-stable-fuel-supply",
+          "publishedAt": "2026-04-01T00:00:00.000Z",
+          "matchedQuery": "South Africa fuel supply prices government",
+          "note": "Government said consignments were secured and domestic supply remains the priority."
+        },
+        {
+          "title": "National Treasury on extension of short-term relief measures to address fuel price increases",
+          "publisher": "South African Government",
+          "url": "https://www.gov.za/news/media-statements/national-treasury-extension-short-term-relief-measures-address-fuel-price",
+          "publishedAt": "2026-04-29T00:00:00.000Z",
+          "matchedQuery": "South Africa diesel supply disruptions",
+          "note": "Relief measures confirm price pressure, but not widespread retail unavailability."
+        }
+      ]
+    },
+    "political-triggers": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 1,
+      "summary": "Some parliamentary and public-order pressure signals exist, but there is no single nationally dominant trigger loaded in this snapshot.",
+      "sourceIds": [
+        "google-news-rss",
+        "parliament-press"
+      ],
+      "evidence": [
+        {
+          "title": "Media Statement: Committee Resolves To Request an Extension for Gang-Related Violence Inquiry",
+          "publisher": "Parliament of South Africa",
+          "url": "https://www.parliament.gov.za/press-releases/media-statement-committee-resolves-request-extension-gang-related-violence-inquiry",
+          "publishedAt": "2026-05-06T00:00:00.000Z",
+          "matchedQuery": "South Africa court ruling protest parliament",
+          "note": "This is not a mass-mobilisation trigger by itself, but it is a live institutional stress signal."
+        }
+      ]
+    },
+    "mobilization": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 3,
+      "summary": "Organised mobilisation is present through taxi-strike language and anti-immigration protests across multiple locations.",
+      "sourceIds": [
+        "google-news-rss",
+        "saps-newsroom"
+      ],
+      "evidence": [
+        {
+          "title": "Long-distance taxi strike put on hold after permit talks progress",
+          "publisher": "East Coast Radio",
+          "url": "https://www.ecr.co.za/news/news/long-distance-taxi-strike-on-hold-after-permit-talks/",
+          "publishedAt": "2026-05-08T10:03:00.000Z",
+          "matchedQuery": "South Africa taxi strike protest",
+          "note": "The strike was paused, which helps, but the mobilisation machinery clearly exists."
+        },
+        {
+          "title": "Taxi bosses plan mass strike over Durban ban",
+          "publisher": "Scrolla.Africa",
+          "url": "https://scrolla.africa/taxi-bosses-plan-mass-strike-over-durban-ban/",
+          "publishedAt": "2026-05-04T00:00:00.000Z",
+          "matchedQuery": "South Africa taxi strike protest",
+          "note": "Taxi-sector escalation matters because it can flip commuter mobility fast."
+        },
+        {
+          "title": "130 Nigerians seek repatriation after latest anti-immigration protests in South Africa",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/a45b2df526f7ed248ed7c222fb359559",
+          "publishedAt": "2026-05-04T15:26:21.000Z",
+          "matchedQuery": "South Africa anti immigrant protest",
+          "note": "Confirms multi-city protest energy with international spillover."
+        }
+      ]
+    },
+    "police-capacity": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 2,
+      "summary": "There is no clean nationwide evidence of systemic failure, but live inquiry and operation reporting suggest continued pressure on policing bandwidth.",
+      "sourceIds": [
+        "google-news-rss",
+        "saps-newsroom",
+        "parliament-press"
+      ],
+      "evidence": [
+        {
+          "title": "Media Statement: Committee Resolves To Request an Extension for Gang-Related Violence Inquiry",
+          "publisher": "Parliament of South Africa",
+          "url": "https://www.parliament.gov.za/press-releases/media-statement-committee-resolves-request-extension-gang-related-violence-inquiry",
+          "publishedAt": "2026-05-06T00:00:00.000Z",
+          "matchedQuery": "South Africa police capacity inquiry",
+          "note": "Parliament extending a gang-violence inquiry is a meaningful pressure signal."
+        },
+        {
+          "title": "South African Police Service in Limpopo continues to tighten the grip on crime through Operation Shanela",
+          "publisher": "SAPS",
+          "url": "https://www.saps.gov.za/newsroom/selectNews/selnewsdetail1.php",
+          "publishedAt": "2026-03-15T00:00:00.000Z",
+          "matchedQuery": "South Africa SAPS operation statement",
+          "note": "Official operations continue, which cuts against a pure collapse narrative."
+        }
+      ]
+    },
+    "local-protests": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 2,
+      "summary": "Several localised protest and road-block stories are current enough to matter operationally, even if they do not add up to a national shutdown.",
+      "sourceIds": [
+        "google-news-rss",
+        "parliament-press"
+      ],
+      "evidence": [
+        {
+          "title": "Taxi strike brings major Klerksdorp roads to a standstill",
+          "publisher": "OFM",
+          "url": "https://www.ofm.co.za/article/centralsa/341100/taxi-strike-brings-major-klerksdorp-roads-to-a-standstill",
+          "publishedAt": "2026-03-23T12:01:00.000Z",
+          "matchedQuery": "South Africa local protest road blocked",
+          "note": "A good example of how local disruptions become immediate household movement problems."
+        },
+        {
+          "title": "Media Statement: COGTA Committee Condemns Violent Kugompo Protests and Reaffirms Rule of Law",
+          "publisher": "Parliament of South Africa",
+          "url": "https://www.parliament.gov.za/press-releases/media-statement-cogta-committee-condemns-violent-kugompo-protests-and-reaffirms-rule-law",
+          "publishedAt": "2026-03-31T00:00:00.000Z",
+          "matchedQuery": "South Africa service delivery protest road closure",
+          "note": "Violent local protest action still matters even when it is geographically narrow."
+        }
+      ]
+    },
+    "food-pharmacy": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 0,
+      "summary": "This snapshot does not show strong evidence of broad retail or pharmacy availability failure.",
+      "sourceIds": [
+        "google-news-rss",
+        "pmbejd-data"
+      ],
+      "evidence": []
+    },
+    "firearms": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 2,
+      "summary": "Firearm-related policing signals are active, with recent seizure reporting and continued official attention to removing weapons from circulation.",
+      "sourceIds": [
+        "google-news-rss",
+        "saps-newsroom"
+      ],
+      "evidence": [
+        {
+          "title": "Operation Lockdown III members seize three firearms in Nyanga",
+          "publisher": "SAPS",
+          "url": "https://www.saps.gov.za/newsroom/msspeechdetail.php?nid=68419",
+          "publishedAt": "2026-05-08T01:13:00.000Z",
+          "matchedQuery": "South Africa firearm seizure SAPS",
+          "note": "The seizure included an R5 rifle and ammunition."
+        },
+        {
+          "title": "SAPS destroys 13 859 firearms during its second firearm destruction process",
+          "publisher": "SAPS",
+          "url": "https://www.saps.gov.za/newsroom/msspeechdetail.php?nid=42974",
+          "publishedAt": "2026-02-19T00:00:00.000Z",
+          "matchedQuery": "South Africa weapons cache police",
+          "note": "This is a control measure, not a threat spike, but it keeps weapons circulation in view."
+        }
+      ]
+    },
+    "misinfo": {
+      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "score": 2,
+      "summary": "Misinformation is currently a live operational issue, especially around fake xenophobia and panic-content circulation.",
+      "sourceIds": [
+        "google-news-rss",
+        "gov-cabinet"
+      ],
+      "evidence": [
+        {
+          "title": "Cabinet sounds alarm on fake images and videos about attacks on foreign nationals",
+          "publisher": "eNCA",
+          "url": "https://www.enca.com/news/cabinet-sounds-alarm-fake-images-and-videos-about-attacks-foreign-nationals",
+          "publishedAt": "2026-05-07T14:53:00.000Z",
+          "matchedQuery": "South Africa fake videos misinformation protests",
+          "note": "Cabinet directly addressed manipulated content linked to current protest narratives."
+        },
+        {
+          "title": "WhatsApp crime groups spreading misinformation and fuelling fear in KZN",
+          "publisher": "East Coast Radio",
+          "url": "https://www.ecr.co.za/news/news/whatsapp-crime-groups-spreading-misinformation/",
+          "publishedAt": "2026-02-23T12:38:00.000Z",
+          "matchedQuery": "South Africa WhatsApp panic fake news",
+          "note": "A reminder that local panic channels create real behavioural effects."
+        }
+      ]
+    }
+  }
+}
