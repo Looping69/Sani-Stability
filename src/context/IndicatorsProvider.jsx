@@ -1,55 +1,58 @@
-import React, { createContext, useContext, useEffect, useState, useMemo } from "react";
+import React, { createContext, useContext, useMemo } from "react";
 import { DEFAULT_INDICATORS } from "@/constants/indicators";
-import { clamp } from "@/utils/helpers";
 import { calculateRiskScore, detectClusters } from "@/utils/calculations";
-
-const STORAGE_KEY = "sani-indicators-v1";
+import liveSignals from "@/data/liveSignals.json";
 
 const IndicatorsContext = createContext(null);
 
-function loadIndicators() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw);
-  } catch {
-    return null;
-  }
+function buildIndicators() {
+  return DEFAULT_INDICATORS.map((item) => {
+    if (item.id === "family-readiness") {
+      return {
+        ...item,
+        score: 0,
+        summary: "Derived from your readiness checklist rather than public reporting.",
+        evidence: [],
+        updatedAt: liveSignals.generatedAt,
+      };
+    }
+
+    const live = liveSignals.indicators?.[item.id] || {};
+    return {
+      ...item,
+      score: Number.isFinite(live.score) ? live.score : 0,
+      summary: live.summary || "No current evidence loaded for this indicator.",
+      evidence: Array.isArray(live.evidence) ? live.evidence : [],
+      sourceIds: Array.isArray(live.sourceIds) && live.sourceIds.length ? live.sourceIds : item.sourceIds,
+      updatedAt: live.updatedAt || liveSignals.generatedAt,
+    };
+  });
 }
 
 export function IndicatorsProvider({ children }) {
-  const [indicators, setIndicators] = useState(() => {
-    return loadIndicators() || DEFAULT_INDICATORS;
-  });
-
-  useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(indicators));
-    } catch {}
-  }, [indicators]);
-
-  function updateIndicator(id, value) {
-    setIndicators((prev) =>
-      prev.map((item) => (item.id === id ? { ...item, score: clamp(value, 0, 5) } : item))
-    );
-  }
-
-  function setAllIndicators(newIndicators) {
-    setIndicators(newIndicators);
-  }
-
+  const indicators = useMemo(() => buildIndicators(), []);
   const riskScore = useMemo(() => calculateRiskScore(indicators), [indicators]);
   const clusters = useMemo(() => detectClusters(indicators), [indicators]);
+  const totalEvidence = useMemo(
+    () => indicators.reduce((sum, item) => sum + item.evidence.length, 0),
+    [indicators]
+  );
 
-  const value = {
-    indicators,
-    riskScore,
-    clusters,
-    updateIndicator,
-    setAllIndicators,
-  };
-
-  return <IndicatorsContext.Provider value={value}>{children}</IndicatorsContext.Provider>;
+  return (
+    <IndicatorsContext.Provider
+      value={{
+        indicators,
+        riskScore,
+        clusters,
+        totalEvidence,
+        generatedAt: liveSignals.generatedAt,
+        feedStatus: liveSignals.feedStatus,
+        feedMode: liveSignals.feedMode,
+      }}
+    >
+      {children}
+    </IndicatorsContext.Provider>
+  );
 }
 
 export function useIndicators() {
