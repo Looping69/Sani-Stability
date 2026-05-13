@@ -1,0 +1,58 @@
+export const SOURCE_CATALOG = {
+  "google-news-rss": {
+    id: "google-news-rss",
+    label: "Google News RSS",
+    kind: "Aggregator",
+    href: "https://news.google.com",
+    note: "Used as an ingest layer for current public reporting.",
+  },
+  "saps-newsroom": {
+    id: "saps-newsroom",
+    label: "SAPS Newsroom",
+    kind: "Official",
+    href: "https://www.saps.gov.za/newsroom/newsroom.php",
+    note: "Official South African Police Service statements and updates.",
+  },
+  "parliament-press": {
+    id: "parliament-press",
+    label: "Parliament Press Releases",
+    kind: "Official",
+    href: "https://www.parliament.gov.za/press-releases",
+    note: "Useful for committee and inquiry signals.",
+  },
+  "gov-fuel": {
+    id: "gov-fuel",
+    label: "South African Government Fuel Statements",
+    kind: "Official",
+    href: "https://www.gov.za/news/media-statements",
+    note: "Fuel supply and levy statements land here.",
+  },
+  "gov-cabinet": {
+    id: "gov-cabinet",
+    label: "Cabinet Statements",
+    kind: "Official",
+    href: "https://www.gov.za/news/media-statements",
+    note: "Used for misinformation and public-order statements.",
+  },
+  sanews: {
+    id: "sanews",
+    label: "SAnews",
+    kind: "Official",
+    href: "https://www.sanews.gov.za",
+    note: "Government news agency updates used for closures and public notices.",
+  },
+  "sanral-reference": {
+    id: "sanral-reference",
+    label: "SANRAL Reference Coverage",
+    kind: "Reference",
+    href: "https://www.sanral.co.za",
+    note: "Road works and corridor closures often trace back to SANRAL projects.",
+  },
+  "pmbejd-data": {
+    id: "pmbejd-data",
+    label: "PMBEJD Food Basket Data",
+    kind: "Research",
+    href: "https://pmbejd.org.za",
+    note: "Useful for food price pressure even when hard shortages are absent.",
+  },
+};

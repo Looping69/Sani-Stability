@@ -19,6 +19,7 @@ export function SvgIcon({ name, className = "h-5 w-5" }) {
     ChevronDown: <svg {...common}><path d="m6 9 6 6 6-6" /></svg>,
     Circle: <svg {...common}><circle cx="12" cy="12" r="9" /></svg>,
     Download: <svg {...common}><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>,
+    ExternalLink: <svg {...common}><path d="M14 4h6v6" /><path d="M10 14 20 4" /><path d="M20 14v6H4V4h6" /></svg>,
     Fuel: <svg {...common}><path d="M4 22V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v17" /><path d="M3 22h14" /><path d="M8 7h4" /><path d="M16 8h2l2 3v7a2 2 0 0 1-2 2h-1" /></svg>,
     Gauge: <svg {...common}><path d="M12 14l4-4" /><path d="M3.3 19a9 9 0 1 1 17.4 0" /></svg>,
     Home: <svg {...common}><path d="m3 11 9-8 9 8" /><path d="M5 10v10h14V10" /><path d="M9 20v-6h6v6" /></svg>,
