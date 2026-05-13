@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster";
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 
 import { Card, CardContent } from "@/components/ui/Card";
 import { useIndicators } from "@/context/IndicatorsProvider";
@@ -21,6 +24,27 @@ function severityClass(level) {
   if (level === "high") return "bg-red-500";
   if (level === "medium") return "bg-orange-500";
   return "bg-sky-500";
+}
+
+function createIncidentIcon(incident, selected) {
+  const size = incident.severity === "high" ? 18 : incident.severity === "medium" ? 15 : 12;
+  return L.divIcon({
+    className: "sani-incident-marker",
+    html: `<span style="display:block;width:${size}px;height:${size}px;border-radius:9999px;background:${incident.color};border:${selected ? 4 : 2}px solid white;box-shadow:0 0 0 4px rgba(15,23,42,.45),0 10px 22px rgba(0,0,0,.35);"></span>`,
+    iconSize: [size + 8, size + 8],
+    iconAnchor: [(size + 8) / 2, (size + 8) / 2],
+  });
+}
+
+function createClusterIcon(cluster) {
+  const count = cluster.getChildCount();
+  const tier = count >= 10 ? "large" : count >= 5 ? "medium" : "small";
+  const size = tier === "large" ? 54 : tier === "medium" ? 46 : 38;
+  return L.divIcon({
+    className: "sani-cluster-marker",
+    html: `<div style="width:${size}px;height:${size}px;border-radius:9999px;display:grid;place-items:center;background:rgba(14,165,233,.92);border:2px solid rgba(255,255,255,.9);box-shadow:0 14px 34px rgba(0,0,0,.4);color:white;font-weight:900;font-size:14px;">${count}</div>`,
+    iconSize: [size, size],
+  });
 }
 
 function ToggleChip({ active, children, onClick }) {
@@ -164,8 +188,10 @@ export function LiveMap() {
     const map = mapInstance.current;
     const marker = markerRefs.current.get(incident.id);
     if (map && marker) {
+      if (markerLayer.current?.zoomToShowLayer) {
+        markerLayer.current.zoomToShowLayer(marker, () => marker.openPopup());
+      }
       map.flyTo([incident.lat, incident.lng], Math.max(map.getZoom(), 7), { duration: 0.6 });
-      marker.openPopup();
       setActiveRegion("custom");
     }
   }
@@ -182,7 +208,13 @@ export function LiveMap() {
       attribution: "OpenStreetMap contributors",
     }).addTo(map);
 
-    markerLayer.current = L.layerGroup().addTo(map);
+    markerLayer.current = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      spiderfyOnMaxZoom: true,
+      disableClusteringAtZoom: 10,
+      maxClusterRadius: 46,
+      iconCreateFunction: createClusterIcon,
+    }).addTo(map);
     mapInstance.current = map;
 
     return () => {
@@ -200,17 +232,13 @@ export function LiveMap() {
     markerRefs.current.clear();
 
     filteredIncidents.forEach((incident) => {
-      const marker = L.circleMarker([incident.lat, incident.lng], {
-        radius: incident.severity === "high" ? 10 : incident.severity === "medium" ? 8 : 6,
-        color: incident.color,
-        fillColor: incident.color,
-        fillOpacity: 0.85,
-        weight: selected?.id === incident.id ? 4 : 2,
+      const marker = L.marker([incident.lat, incident.lng], {
+        icon: createIncidentIcon(incident, selected?.id === incident.id),
       });
 
       marker.bindPopup(`<strong>${incident.locationLabel}</strong><br>${incident.title}`);
       marker.on("click", () => setSelected(incident));
-      marker.addTo(markerLayer.current);
+      markerLayer.current.addLayer(marker);
       markerRefs.current.set(incident.id, marker);
     });
 
@@ -228,7 +256,7 @@ export function LiveMap() {
               <p className="text-xs uppercase tracking-[0.25em] text-slate-400">Operational map</p>
               <h2 className="mt-1 text-xl font-bold sm:text-2xl">Live evidence geography</h2>
               <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-300">
-                Free OpenStreetMap layer with pins generated from evidence that has a known or inferred location.
+                Free OpenStreetMap layer with clustered pins generated from evidence that has a known or inferred location.
               </p>
             </div>
 
