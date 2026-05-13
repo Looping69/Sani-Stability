@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-12T22:30:00.000Z",
-  "feedStatus": "bootstrap",
-  "feedMode": "curated-snapshot",
+  "generatedAt": "2026-05-13T13:04:31.133Z",
+  "feedStatus": "live",
+  "feedMode": "scheduled-refresh",
   "indicators": {
     "roads": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 3,
-      "summary": "Multiple mobility disruptions are active, driven by severe weather damage and corridor closures rather than a single national flashpoint.",
+      "updatedAt": "2026-05-13T13:04:19.658Z",
+      "score": 5,
+      "summary": "8 recent items matched. Newest tracked item: \"Cape Town weather warning as stronger storm moves in\".",
       "sourceIds": [
         "google-news-rss",
         "sanews",
@@ -14,116 +14,300 @@
       ],
       "evidence": [
         {
-          "title": "South Africa declares natural disaster as flooding kills at least 10",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/ee9de87f657d64586da774b3a1f0bba8",
-          "publishedAt": "2026-05-12T15:52:31.000Z",
-          "matchedQuery": "South Africa road closures flooding",
-          "note": "Flooding affected six provinces and temporary closures were ordered in the Western Cape."
+          "title": "Cape Town weather warning as stronger storm moves in",
+          "publisher": "InBound SA",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQTN2MXJGWmNaUEJLcHUzaEhMeXBJN29ZRjRiS096MDR5X0p5UUhOaFdlMXVIRWcxMVh6UHBSVlRQaUt4ek8xT3RnSXpTR2t5WHVza3pabVZ0el9UQ2NMZnZYVzExQ1J5SjdWTUlyOWRRUEhhWjZNWVJTZk9jRk9ZMw?oc=5",
+          "publishedAt": "2026-05-13T04:58:33.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPQTN2MXJGWmNaUEJLcHUzaEhMeXBJN29ZRjRiS096MDR5X0p5UUhOaFdlMXVIRWcxMVh6UHBSVlRQaUt4ek8xT3RnSXpTR2t5WHVza3pabVZ0el9UQ2NMZnZYVzExQ1J5SjdWTUlyOWRRUEhhWjZNWVJTZk9jRk9ZMw?oc=5\" target=\"_blank\">Cape Town weather warning as stronger storm moves in</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">InBound SA</font>",
+          "matchedQuery": "South Africa road closures flooding"
         },
         {
-          "title": "Sanral announces rolling N3 closures for blasting near Market Road",
-          "publisher": "The Witness",
-          "url": "https://witness.co.za/news/2026/05/05/sanral-announces-rolling-n3-closures-for-blasting-near-market-road/",
-          "publishedAt": "2026-05-05T00:00:00.000Z",
-          "matchedQuery": "South Africa N3 closure",
-          "note": "Scheduled N3 closures affect a major freight corridor."
+          "title": "Severe weather in South Africa declared a national disaster",
+          "publisher": "sundayindependent.co.za",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNalVrY2xIQnZyVlFEc3dDeTlKYVlzM2hHQzhEZTJvWVZJQ3MtTFFqMW1wY3pXQUJ1VDhUQWo0d3lxMjlYb2xTaXlkR2RXVU9WLWJDb1VFRlh5QzFwU21NaFV0dE9tN2dZN3V6bUZyLUhaRVJpSTZmNTNPY1F2VFZ6bkM0RTlObmNQMFk5N1ZlWmdFdU9aVlQxaVQ1TWRhSWVVVUNGWVFycnFkbTliVWw0OXNLUkFPaE96SURiLTAxUQ?oc=5",
+          "publishedAt": "2026-05-12T09:39:58.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNalVrY2xIQnZyVlFEc3dDeTlKYVlzM2hHQzhEZTJvWVZJQ3MtTFFqMW1wY3pXQUJ1VDhUQWo0d3lxMjlYb2xTaXlkR2RXVU9WLWJDb1VFRlh5QzFwU21NaFV0dE9tN2dZN3V6bUZyLUhaRVJpSTZmNTNPY1F2VFZ6bkM0RTlObmNQMFk5N1ZlWmdFdU9aVlQxaVQ1TWRhSWVVVUNGWVFycnFkbTliVWw0OXNLUkFPaE96SURiLTAxUQ?oc=5\" target=\"_blank\">Severe weather in South Africa declared a national disaster</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sundayindependent.co.za</font>",
+          "matchedQuery": "South Africa road closures flooding"
         },
         {
-          "title": "Road closures be implemented for Freedom Day celebrations",
-          "publisher": "SAnews",
-          "url": "https://www.sanews.gov.za/south-africa/road-closures-be-implemented-freedom-day-celebrations",
-          "publishedAt": "2026-04-28T00:00:00.000Z",
-          "matchedQuery": "South Africa road closure protest",
-          "note": "Official event-driven closures are still relevant because they constrain alternate routes."
+          "title": "Western Cape road closures due to Level 8 rainfall",
+          "publisher": "Western Cape Government",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd3VXU1N2VldYVXlKLVBVaEhOVVEtQ1FSZ2lEdG55S1lwZnRVMl8xNTlNbnUwVnlnQmo0aVl2UEN4QjY1UlpLUjNBUlA2SWlaa0dEX2NsYkV5YWhTc0ZJTkV0dUtkZDJ4LTVPa3dDQlZ2Rk1MdWlWVmtjazNNb1lRVXRYNWNQYzV6NE5HRVpzd2Z0NC1OUmpTd0RUSjZnX0g3dWpV?oc=5",
+          "publishedAt": "2026-05-12T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQd3VXU1N2VldYVXlKLVBVaEhOVVEtQ1FSZ2lEdG55S1lwZnRVMl8xNTlNbnUwVnlnQmo0aVl2UEN4QjY1UlpLUjNBUlA2SWlaa0dEX2NsYkV5YWhTc0ZJTkV0dUtkZDJ4LTVPa3dDQlZ2Rk1MdWlWVmtjazNNb1lRVXRYNWNQYzV6NE5HRVpzd2Z0NC1OUmpTd0RUSjZnX0g3dWpV?oc=5\" target=\"_blank\">Western Cape road closures due to Level 8 rainfall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Western Cape Government</font>",
+          "matchedQuery": "South Africa road closures flooding"
+        },
+        {
+          "title": "Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa",
+          "publisher": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSXpxd3dYd2JQaUgtcDRSQlNsaE40Yk9LMXNseHZiNVNtN0dnUWNsNnY0MDRFbUdCNnRZQVF0Y3lnN1FMX3BtQlBJSE1XME8yaksyVnJDNnFpcFFlTElQbklPUFNaa1l6bW9DbHhfa3JxVC1OVjZmeXBuS0p4MGc0eTA4Yjl6Nkw2Y21WU0taZDgwNXJocTdsUzEtWEsyWmlZS1lYVHlkTC14Zw?oc=5",
+          "publishedAt": "2026-05-11T16:17:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSXpxd3dYd2JQaUgtcDRSQlNsaE40Yk9LMXNseHZiNVNtN0dnUWNsNnY0MDRFbUdCNnRZQVF0Y3lnN1FMX3BtQlBJSE1XME8yaksyVnJDNnFpcFFlTElQbklPUFNaa1l6bW9DbHhfa3JxVC1OVjZmeXBuS0p4MGc0eTA4Yjl6Nkw2Y21WU0taZDgwNXJocTdsUzEtWEsyWmlZS1lYVHlkTC14Zw?oc=5\" target=\"_blank\">Weather tracker: US and Mexico brace for heatwave as deadly floods hit South Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+          "matchedQuery": "South Africa road closures flooding"
+        },
+        {
+          "title": "South Africa Declares National Disaster Over Severe Weather",
+          "publisher": "allAfrica.com",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42U2ZoQzNuSXY4SmRXaVFvWkhWWDhET1M4RTl0S0tvaWFhcmRWOW0tbERnZUxtMWVjRG8zdkJ2N201cHNfN0tpRU9qR25MX2FNbXlqNWVUc0lMaG50Wk96aDlISW9lNTBacVNR?oc=5",
+          "publishedAt": "2026-05-11T12:35:24.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE42U2ZoQzNuSXY4SmRXaVFvWkhWWDhET1M4RTl0S0tvaWFhcmRWOW0tbERnZUxtMWVjRG8zdkJ2N201cHNfN0tpRU9qR25MX2FNbXlqNWVUc0lMaG50Wk96aDlISW9lNTBacVNR?oc=5\" target=\"_blank\">South Africa Declares National Disaster Over Severe Weather</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">allAfrica.com</font>",
+          "matchedQuery": "South Africa road closures flooding"
+        },
+        {
+          "title": "Flights cancelled at two major airports in South Africa",
+          "publisher": "TopAuto.co.za",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRERzck5Obkctak1ORUhoSXBUSGp0MjhyODlwY2Jtd3FpYVVHdEQyQ0o5RG9TSmJFeU1rTXh5Wkp6UG83WE9kekZtV1RxQzVVb3NTbDNsX1QtbHVIOW9xVHYzcVZ1MHNaam5uaHlRbFhVeHU3MTY2NGN1X1NxdjdvTS04Q0xDVDVQVUtYeTdrZWhYcGFR?oc=5",
+          "publishedAt": "2026-05-11T12:31:42.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNRERzck5Obkctak1ORUhoSXBUSGp0MjhyODlwY2Jtd3FpYVVHdEQyQ0o5RG9TSmJFeU1rTXh5Wkp6UG83WE9kekZtV1RxQzVVb3NTbDNsX1QtbHVIOW9xVHYzcVZ1MHNaam5uaHlRbFhVeHU3MTY2NGN1X1NxdjdvTS04Q0xDVDVQVUtYeTdrZWhYcGFR?oc=5\" target=\"_blank\">Flights cancelled at two major airports in South Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TopAuto.co.za</font>",
+          "matchedQuery": "South Africa road closures flooding"
+        },
+        {
+          "title": "Severe storm wreaks havoc in Cape Town: Roads flooded and roofs blown off",
+          "publisher": "Cape Argus",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUVYZzNhZDVSbWU5S2FRcERNbXZQNWVNWXZsMGIzT0pVcTR3SmpjSTlwSkZoNS1OTVJYUmNDSzM1VWZWUFhQNTdxVVJXVEN3djBPd0hWWWFTX3hlWFkwbXN1enlWcUxNVjlFeVdfWm1HQ3RQUXQ5U0pLbFQwaVc2dEFFUUR2ejZjNlpIMXRmR0RSQVJTMDdNNzh2b0I5YTVKM2lkcVBPM0JkYlBZZzllUlhyUkdCSi1sUHBJOElDUmFlOC1seGc?oc=5",
+          "publishedAt": "2026-05-11T08:08:18.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUVYZzNhZDVSbWU5S2FRcERNbXZQNWVNWXZsMGIzT0pVcTR3SmpjSTlwSkZoNS1OTVJYUmNDSzM1VWZWUFhQNTdxVVJXVEN3djBPd0hWWWFTX3hlWFkwbXN1enlWcUxNVjlFeVdfWm1HQ3RQUXQ5U0pLbFQwaVc2dEFFUUR2ejZjNlpIMXRmR0RSQVJTMDdNNzh2b0I5YTVKM2lkcVBPM0JkYlBZZzllUlhyUkdCSi1sUHBJOElDUmFlOC1seGc?oc=5\" target=\"_blank\">Severe storm wreaks havoc in Cape Town: Roads flooded and roofs blown off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cape Argus</font>",
+          "matchedQuery": "South Africa road closures flooding"
+        },
+        {
+          "title": "Cape Town storm causes flooding, fallen trees and road closures across city",
+          "publisher": "InBound SA",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZkY0YkdQYy1YdnZtZlBrdFEzVDV2TEl3V0R1X09TQ1ZGdGhCaUpqblc4UW9WVUJBWm54cUJIWXVWQ0RxbjdDSy1yZ0xXTGRoT1kzcU00clNURUprWTMtOXg4VGRsNVhpQVlDT2s5dUtEd0NWeU4tZUwtYzd0RkNiMQ?oc=5",
+          "publishedAt": "2026-05-11T07:30:41.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNZkY0YkdQYy1YdnZtZlBrdFEzVDV2TEl3V0R1X09TQ1ZGdGhCaUpqblc4UW9WVUJBWm54cUJIWXVWQ0RxbjdDSy1yZ0xXTGRoT1kzcU00clNURUprWTMtOXg4VGRsNVhpQVlDT2s5dUtEd0NWeU4tZUwtYzd0RkNiMQ?oc=5\" target=\"_blank\">Cape Town storm causes flooding, fallen trees and road closures across city</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">InBound SA</font>",
+          "matchedQuery": "South Africa road closures flooding"
         }
       ]
     },
     "fuel": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 1,
-      "summary": "Price stress is high, but current official statements are reassuring on domestic supply continuity.",
+      "updatedAt": "2026-05-13T13:04:21.320Z",
+      "score": 4,
+      "summary": "8 recent items matched. Newest tracked item: \"South African petrol stations face survival challenges due to rising fuel prices\".",
       "sourceIds": [
         "google-news-rss",
         "gov-fuel"
       ],
       "evidence": [
         {
-          "title": "Mineral and Petroleum Resources reassures South Africans of stable fuel supply amid global energy uncertainty",
-          "publisher": "South African Government",
-          "url": "https://www.gov.za/news/media-statements/mineral-and-petroleum-resources-reassures-south-africans-stable-fuel-supply",
-          "publishedAt": "2026-04-01T00:00:00.000Z",
-          "matchedQuery": "South Africa fuel supply prices government",
-          "note": "Government said consignments were secured and domestic supply remains the priority."
+          "title": "South African petrol stations face survival challenges due to rising fuel prices",
+          "publisher": "IOL",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZm1TNW4yWHZqeHpvaE9PRXNwZkR6MFYzV3JFOUdVcTlmdzJEYjhmODdfUkJnWjhkZGlmVjBheFI3Qlk4aWNtaUVYTExWajNhNGpobkJkeGg2bzFpUXg3eDQ3a3NCNTBBaWJXM3l0Q1Z6WXhzMUtGSWtZRi0zdmlpZDJWdXFnMVBfUnI5QXUzUGZoaHRrMUV6UlNRR3JEeHNOaTE0Sk5uYkRKZGlwOV9TbVBxbGZFRXlrN0Fn?oc=5",
+          "publishedAt": "2026-05-12T09:15:14.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZm1TNW4yWHZqeHpvaE9PRXNwZkR6MFYzV3JFOUdVcTlmdzJEYjhmODdfUkJnWjhkZGlmVjBheFI3Qlk4aWNtaUVYTExWajNhNGpobkJkeGg2bzFpUXg3eDQ3a3NCNTBBaWJXM3l0Q1Z6WXhzMUtGSWtZRi0zdmlpZDJWdXFnMVBfUnI5QXUzUGZoaHRrMUV6UlNRR3JEeHNOaTE0Sk5uYkRKZGlwOV9TbVBxbGZFRXlrN0Fn?oc=5\" target=\"_blank\">South African petrol stations face survival challenges due to rising fuel prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IOL</font>",
+          "matchedQuery": "South Africa fuel shortage stations"
         },
         {
-          "title": "National Treasury on extension of short-term relief measures to address fuel price increases",
-          "publisher": "South African Government",
-          "url": "https://www.gov.za/news/media-statements/national-treasury-extension-short-term-relief-measures-address-fuel-price",
-          "publishedAt": "2026-04-29T00:00:00.000Z",
-          "matchedQuery": "South Africa diesel supply disruptions",
-          "note": "Relief measures confirm price pressure, but not widespread retail unavailability."
+          "title": "Record Petrol Prices Push South African Fuel Stations to Brink",
+          "publisher": "Mabumbe",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcTRtSWppc25faVFqbUdiNDU3SU92bFdDR3RINUF5WURweF83M2ZMWDA1MVIydjl5LTVsbkJIMjFnTkZId3hJdGpSUW9SNGdZTGdwaGJRMW82a3BqX2FDMkQxMHNMcGs3VGtPLTFiYnVCYlZWdmtVZ3hDTGhQQlYydGZhakxQVGMxUDJkaXVyVGhrNFJn?oc=5",
+          "publishedAt": "2026-05-11T11:29:55.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPcTRtSWppc25faVFqbUdiNDU3SU92bFdDR3RINUF5WURweF83M2ZMWDA1MVIydjl5LTVsbkJIMjFnTkZId3hJdGpSUW9SNGdZTGdwaGJRMW82a3BqX2FDMkQxMHNMcGs3VGtPLTFiYnVCYlZWdmtVZ3hDTGhQQlYydGZhakxQVGMxUDJkaXVyVGhrNFJn?oc=5\" target=\"_blank\">Record Petrol Prices Push South African Fuel Stations to Brink</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mabumbe</font>",
+          "matchedQuery": "South Africa fuel shortage stations"
+        },
+        {
+          "title": "Petrol stations in South Africa are in deep trouble",
+          "publisher": "Business Tech",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOHEtQUVCWUtXOXJCR1JsMWpTSE90czU4YjFxMm51WGxvNkNEdkVWaTBZdmdmb1ZVUW1FNFNSV1FSV2xGV2xRckJKYzZOZG1tcFc5SHFENWRiMDU4Zjd0TFE4Wk94SVFabGtDYzI3UlVNdXNXWmk1SWg2dWtqRUZQdkNUNUNqaEh0ZXZzb0x4cUxlNTRzWjBjS0JwMmJEdVdqM0E?oc=5",
+          "publishedAt": "2026-05-11T09:32:42.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQOHEtQUVCWUtXOXJCR1JsMWpTSE90czU4YjFxMm51WGxvNkNEdkVWaTBZdmdmb1ZVUW1FNFNSV1FSV2xGV2xRckJKYzZOZG1tcFc5SHFENWRiMDU4Zjd0TFE4Wk94SVFabGtDYzI3UlVNdXNXWmk1SWg2dWtqRUZQdkNUNUNqaEh0ZXZzb0x4cUxlNTRzWjBjS0JwMmJEdVdqM0E?oc=5\" target=\"_blank\">Petrol stations in South Africa are in deep trouble</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Tech</font>",
+          "matchedQuery": "South Africa fuel shortage stations"
+        },
+        {
+          "title": "Government puts South Africa at risk of running out of petrol and diesel",
+          "publisher": "Daily Investor",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ2cwZUhfSGtaRkxSbkw4Zi1KeFpKX01KV2NCa1o4VVNmbkJqR0V5azBVV1hrSTVNb3BReHpnSFFsN2k1d2VtNUVfNDRCd0NvaVpxUzRkSHJ5NmNSS2tycHBjNU1zR1lZM0diYTFaOUdNRVhHLVFfMmlwZmFFTEtWOHZXQ2VaZHhCbUhWLXBxUjE2aFJHYjBjR3JmMDJpZUdOYnBURHowcS0tT19oclVXblc1Yw?oc=5",
+          "publishedAt": "2026-05-11T05:19:02.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ2cwZUhfSGtaRkxSbkw4Zi1KeFpKX01KV2NCa1o4VVNmbkJqR0V5azBVV1hrSTVNb3BReHpnSFFsN2k1d2VtNUVfNDRCd0NvaVpxUzRkSHJ5NmNSS2tycHBjNU1zR1lZM0diYTFaOUdNRVhHLVFfMmlwZmFFTEtWOHZXQ2VaZHhCbUhWLXBxUjE2aFJHYjBjR3JmMDJpZUdOYnBURHowcS0tT19oclVXblc1Yw?oc=5\" target=\"_blank\">Government puts South Africa at risk of running out of petrol and diesel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Investor</font>",
+          "matchedQuery": "South Africa fuel supply prices government"
+        },
+        {
+          "title": "Middle East conflict disrupts fuel supply to SA sub-Antarctic base",
+          "publisher": "Moneyweb",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQmxNVVh2cEl4QXpRd2hfeDF6YXpSUzM5Yld0OXJvRTYxbmZQTlczaUx2SGdFV2E2S081d25fOWdUdTY4VUg1OGt5M0had0JnTVdoMVZJQ2E2bHVQQ24tVzBMTV9wNVlPNWhPRGdPWUtCck9DTWcyRXhWUXRzNFBzcVI1ZVNOaHVZNnJuMW5UVUdZcVZGTHlVLVV1a1RRc1JzR2ZRQWZiRXhXdW9VZmRORXdR?oc=5",
+          "publishedAt": "2026-05-11T02:26:23.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOQmxNVVh2cEl4QXpRd2hfeDF6YXpSUzM5Yld0OXJvRTYxbmZQTlczaUx2SGdFV2E2S081d25fOWdUdTY4VUg1OGt5M0had0JnTVdoMVZJQ2E2bHVQQ24tVzBMTV9wNVlPNWhPRGdPWUtCck9DTWcyRXhWUXRzNFBzcVI1ZVNOaHVZNnJuMW5UVUdZcVZGTHlVLVV1a1RRc1JzR2ZRQWZiRXhXdW9VZmRORXdR?oc=5\" target=\"_blank\">Middle East conflict disrupts fuel supply to SA sub-Antarctic base</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moneyweb</font>",
+          "matchedQuery": "South Africa diesel supply disruptions"
+        },
+        {
+          "title": "Fuel supply crisis pushes back critical Marion Island relief voyage",
+          "publisher": "News24",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeTkzMTB3ZVJDUFVLSGw4eGlrQWpJREZHNmVYY1B4UVczU2xXQ0VuLTZFeVlLa1ZuYVdTazRJaWYxaXR5NGtselB4VWYzMExBa1dOSDRJM2cwV2FiTkRiTjllTlJGWVFUcG5wZ05ieERvYzM4Zk44OEZRTXZDb3E0WWZhWnpvdGJlQTNld2JOMDhMX016VXZ5TGFNd0VTa3g5RlMtRFlDamFESDBDU0hWOUpFTGRqOXhwM3REdFVB?oc=5",
+          "publishedAt": "2026-05-09T22:04:53.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOeTkzMTB3ZVJDUFVLSGw4eGlrQWpJREZHNmVYY1B4UVczU2xXQ0VuLTZFeVlLa1ZuYVdTazRJaWYxaXR5NGtselB4VWYzMExBa1dOSDRJM2cwV2FiTkRiTjllTlJGWVFUcG5wZ05ieERvYzM4Zk44OEZRTXZDb3E0WWZhWnpvdGJlQTNld2JOMDhMX016VXZ5TGFNd0VTa3g5RlMtRFlDamFESDBDU0hWOUpFTGRqOXhwM3REdFVB?oc=5\" target=\"_blank\">Fuel supply crisis pushes back critical Marion Island relief voyage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News24</font>",
+          "matchedQuery": "South Africa diesel supply disruptions"
+        },
+        {
+          "title": "Iran War Disrupts Fuel Supply to South Africa Sub-Antarctic Base",
+          "publisher": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZPMnBHYWpaTHJkdnFqY040T2xFN2ZNa3MwQ1h2WUJBWVhyM0w2cUprZ0xpc2tTT3V2UV91UkJVQkEwcW5VNmYzaFhlUjhrLURVanIzR3hwaHNOVEZQMWJIUVdPeEtaOGhQR3ZOdkw4dHJpdmRlTXJaSkdwSVFfVXBUX2FkY09nbXBCWVk3NF9JbmRKM2hyeTZ1Ylk3VHdIeFQ0QXRNbEJWTGVHRm80dWo1bnVkZw?oc=5",
+          "publishedAt": "2026-05-09T15:49:23.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEZPMnBHYWpaTHJkdnFqY040T2xFN2ZNa3MwQ1h2WUJBWVhyM0w2cUprZ0xpc2tTT3V2UV91UkJVQkEwcW5VNmYzaFhlUjhrLURVanIzR3hwaHNOVEZQMWJIUVdPeEtaOGhQR3ZOdkw4dHJpdmRlTXJaSkdwSVFfVXBUX2FkY09nbXBCWVk3NF9JbmRKM2hyeTZ1Ylk3VHdIeFQ0QXRNbEJWTGVHRm80dWo1bnVkZw?oc=5\" target=\"_blank\">Iran War Disrupts Fuel Supply to South Africa Sub-Antarctic Base</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+          "matchedQuery": "South Africa diesel supply disruptions"
+        },
+        {
+          "title": "South Africans forced to pay R300 to government every time they fill up at a petrol station",
+          "publisher": "Business Tech",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVjc2OG05RnlvaDVsRnJ5Z2FyVWdVRG80VzVKNEpVWlRRR0FvMExzVHZGRjhhM2ttSlJHV01nRDQzdnhWNTlEekVtaHNJVnlHNHdaRzUyUmNDaDBKMFk3TjVRbEJIQ0ZrYm91Zml5SnhGeHpKQzFPMTZ4QXJzR1RpMXZNX0FkZ1I5SS01ZVVjbmZKanpaanlRSG1IVFJYR2d0SXo3TEo0MGhuZXROYXp6MjRWdE9nQ0xwTUJVX1V2LUFMbkcyY2t1Z0NEOFYxQXZoeDREeQ?oc=5",
+          "publishedAt": "2026-05-09T12:01:49.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVjc2OG05RnlvaDVsRnJ5Z2FyVWdVRG80VzVKNEpVWlRRR0FvMExzVHZGRjhhM2ttSlJHV01nRDQzdnhWNTlEekVtaHNJVnlHNHdaRzUyUmNDaDBKMFk3TjVRbEJIQ0ZrYm91Zml5SnhGeHpKQzFPMTZ4QXJzR1RpMXZNX0FkZ1I5SS01ZVVjbmZKanpaanlRSG1IVFJYR2d0SXo3TEo0MGhuZXROYXp6MjRWdE9nQ0xwTUJVX1V2LUFMbkcyY2t1Z0NEOFYxQXZoeDREeQ?oc=5\" target=\"_blank\">South Africans forced to pay R300 to government every time they fill up at a petrol station</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Tech</font>",
+          "matchedQuery": "South Africa fuel shortage stations"
         }
       ]
     },
     "political-triggers": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 1,
-      "summary": "Some parliamentary and public-order pressure signals exist, but there is no single nationally dominant trigger loaded in this snapshot.",
+      "updatedAt": "2026-05-13T13:04:22.880Z",
+      "score": 4,
+      "summary": "8 recent items matched. Newest tracked item: \"MK Party demands Ramaphosa resign at Travel Indaba\".",
       "sourceIds": [
         "google-news-rss",
         "parliament-press"
       ],
       "evidence": [
         {
-          "title": "Media Statement: Committee Resolves To Request an Extension for Gang-Related Violence Inquiry",
-          "publisher": "Parliament of South Africa",
-          "url": "https://www.parliament.gov.za/press-releases/media-statement-committee-resolves-request-extension-gang-related-violence-inquiry",
-          "publishedAt": "2026-05-06T00:00:00.000Z",
-          "matchedQuery": "South Africa court ruling protest parliament",
-          "note": "This is not a mass-mobilisation trigger by itself, but it is a live institutional stress signal."
+          "title": "MK Party demands Ramaphosa resign at Travel Indaba",
+          "publisher": "Joburg ETC",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONHdzaVI5ejFGQkwwbXFkSldYb1EtemlPVENTRDFjR29vdER3QkFJZ1FVa2J3eEJ1ZXV5c2dzcnFZN1hDci1sd0lfa3BHUEVVN2pxSllHT2lrSmNRSjF0cmpFTmJsdGVpWkZpcklWZkFuZC10VTFHcE5hRjI3a19oSjJtNFBVYjFCSHc?oc=5",
+          "publishedAt": "2026-05-13T07:09:10.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxONHdzaVI5ejFGQkwwbXFkSldYb1EtemlPVENTRDFjR29vdER3QkFJZ1FVa2J3eEJ1ZXV5c2dzcnFZN1hDci1sd0lfa3BHUEVVN2pxSllHT2lrSmNRSjF0cmpFTmJsdGVpWkZpcklWZkFuZC10VTFHcE5hRjI3a19oSjJtNFBVYjFCSHc?oc=5\" target=\"_blank\">MK Party demands Ramaphosa resign at Travel Indaba</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Joburg ETC</font>",
+          "matchedQuery": "South Africa court ruling protest parliament"
+        },
+        {
+          "title": "South African president says he will not step down after impeachment call",
+          "publisher": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XMlVicWpCRlhsQ2lRY2JOZHRZZktCQ0hVVjZ0ekNnNVNkYVNsSFpFdi00dHN3NHQ3VnZaZldCdXNzUEtIWXdqdHF5UXFOVVRjdXJKS1lPWGt3dw?oc=5",
+          "publishedAt": "2026-05-11T21:44:20.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XMlVicWpCRlhsQ2lRY2JOZHRZZktCQ0hVVjZ0ekNnNVNkYVNsSFpFdi00dHN3NHQ3VnZaZldCdXNzUEtIWXdqdHF5UXFOVVRjdXJKS1lPWGt3dw?oc=5\" target=\"_blank\">South African president says he will not step down after impeachment call</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+          "matchedQuery": "South Africa court ruling protest parliament"
+        },
+        {
+          "title": "Ramaphosa Rejects Resignation Calls Amid Phala Phala Probe",
+          "publisher": "Mabumbe",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUEcxSjBuNnJBTXNFZ2FVbTNWT3E2cmJFTWplYjdad2RULVQxQ0YyZENfSE5KeW15RVFTUFhvUWxWWnYwcVlnV0pRX0FXcXh4WkZQTlgzNUFnY1RSeFVTQklpajBmMTBzbUhGaGNfVjJ4VDZDYURCRHhoaXB0aW9XQXU3T0syRGY3TmFndElyMA?oc=5",
+          "publishedAt": "2026-05-11T19:48:42.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQUEcxSjBuNnJBTXNFZ2FVbTNWT3E2cmJFTWplYjdad2RULVQxQ0YyZENfSE5KeW15RVFTUFhvUWxWWnYwcVlnV0pRX0FXcXh4WkZQTlgzNUFnY1RSeFVTQklpajBmMTBzbUhGaGNfVjJ4VDZDYURCRHhoaXB0aW9XQXU3T0syRGY3TmFndElyMA?oc=5\" target=\"_blank\">Ramaphosa Rejects Resignation Calls Amid Phala Phala Probe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mabumbe</font>",
+          "matchedQuery": "South Africa court ruling protest parliament"
+        },
+        {
+          "title": "Philippines House Votes to Impeach Vice President Duterte Amid Political Turmoil",
+          "publisher": "Devdiscourse",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTDljN2JPemlERFNQR25KZVdRUjJpWW5XUmFEN3VHemZjSkhRREcxWVFQbHk4aGRWT0QyaDhkMWhiVzdQVzFfcl9xbThEZFRFM3plZWVnUlFWTFVJTS1TZTltOFFHeU02NTlWTnI1UlRkX3lHdmJ4UFdrWVBoeE5qa2hiWkxWV25keW5ZNkprZjk1YUUwdzFweHZxWDJnaFBKYkR4N1FxY2FIYXhzVEZaek9vWkYtVmQxZmdIZVY3SldhQ0NGaWh0UmE3Y1NsLW_SAdQBQVVfeXFMTjRkQ0JmazBkMUh3akRXWE5ETy14ZGVhTGZ5ck1QMEJZM21oRElzUXhNNUo3dHNGQmdUaExqbm9mY2lpNGZFS291eHhYbDlodGVfOHZwTkxyU0d0MEV0Y3g4V2Mzb3pvN2x5OG1XclVMeHVLSDdUc3ZLeEV1NVhEYVN2bDdQbHlCRVExTnlNRDlqcXhJekVZS05xQmZ3N1NabGw5MkR5R2xsWHg0NWdMVHVjcnZBdWtFTVUtQjhVbC1fU1JrZnZfcVZYTF9BcThrcEpsblI?oc=5",
+          "publishedAt": "2026-05-11T13:07:16.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPTDljN2JPemlERFNQR25KZVdRUjJpWW5XUmFEN3VHemZjSkhRREcxWVFQbHk4aGRWT0QyaDhkMWhiVzdQVzFfcl9xbThEZFRFM3plZWVnUlFWTFVJTS1TZTltOFFHeU02NTlWTnI1UlRkX3lHdmJ4UFdrWVBoeE5qa2hiWkxWV25keW5ZNkprZjk1YUUwdzFweHZxWDJnaFBKYkR4N1FxY2FIYXhzVEZaek9vWkYtVmQxZmdIZVY3SldhQ0NGaWh0UmE3Y1NsLW_SAdQBQVVfeXFMTjRkQ0JmazBkMUh3akRXWE5ETy14ZGVhTGZ5ck1QMEJZM21oRElzUXhNNUo3dHNGQmdUaExqbm9mY2lpNGZFS291eHhYbDlodGVfOHZwTkxyU0d0MEV0Y3g4V2Mzb3pvN2x5OG1XclVMeHVLSDdUc3ZLeEV1NVhEYVN2bDdQbHlCRVExTnlNRDlqcXhJekVZS05xQmZ3N1NabGw5MkR5R2xsWHg0NWdMVHVjcnZBdWtFTVUtQjhVbC1fU1JrZnZfcVZYTF9BcThrcEpsblI?oc=5\" target=\"_blank\">Philippines House Votes to Impeach Vice President Duterte Amid Political Turmoil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Devdiscourse</font>",
+          "matchedQuery": "South Africa impeachment vote unrest"
+        },
+        {
+          "title": "The Unlikely Scandal Tripping Up Ramaphosa",
+          "publisher": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY041Rm5BSW84aU53LWxMOC1XU3Joem1BUjJ0c2wySTU0MlhIcXplXzVUUUwtbUdMTEUzN3N0TE40ckJ4RGZ3c3IteGgtVExOMFNaWmNQR2lWM09XSUFnb1J0YTFNdXhpNnFIZ1hWRmpPOEtIdHpoRWtGT2VmLTBGaVE4V2RvWmpWemRXc2l4Y25DeWNtamM3WXBuUFhZLWo4SDctc19GdURmSDBzcnVJWHc5Nzd6T2RLUVVLTExHQXQ4VHFQcW1uOQ?oc=5",
+          "publishedAt": "2026-05-11T09:59:03.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY041Rm5BSW84aU53LWxMOC1XU3Joem1BUjJ0c2wySTU0MlhIcXplXzVUUUwtbUdMTEUzN3N0TE40ckJ4RGZ3c3IteGgtVExOMFNaWmNQR2lWM09XSUFnb1J0YTFNdXhpNnFIZ1hWRmpPOEtIdHpoRWtGT2VmLTBGaVE4V2RvWmpWemRXc2l4Y25DeWNtamM3WXBuUFhZLWo4SDctc19GdURmSDBzcnVJWHc5Nzd6T2RLUVVLTExHQXQ4VHFQcW1uOQ?oc=5\" target=\"_blank\">The Unlikely Scandal Tripping Up Ramaphosa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+          "matchedQuery": "South Africa impeachment vote unrest"
+        },
+        {
+          "title": "'480 days is too long': EFF protests at Constitutional Court for Phala Phala judgment release",
+          "publisher": "Cape Times",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPTzJJUXV0THV4THBGUkxQNWVtYThJbG53aGtLVHM5djUxeTN5ZnZhWWdCb09vM3VZbDJWckVvYmVpT1ZvMkYxTFFRVWlObF9Gd2RxdUZmV2tZY3dsYm1HdjY5ZGZFUQ?oc=5",
+          "publishedAt": "2026-05-09T02:03:49.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPTzJJUXV0THV4THBGUkxQNWVtYThJbG53aGtLVHM5djUxeTN5ZnZhWWdCb09vM3VZbDJWckVvYmVpT1ZvMkYxTFFRVWlObF9Gd2RxdUZmV2tZY3dsYm1HdjY5ZGZFUQ?oc=5\" target=\"_blank\">'480 days is too long': EFF protests at Constitutional Court for Phala Phala judgment release</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cape Times</font>",
+          "matchedQuery": "South Africa court ruling protest parliament"
+        },
+        {
+          "title": "Cyril Ramaphosa impeachment call: Why South Africa President Cyril Ramaphosa dey face calls to resign",
+          "publisher": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96R05lTjJWVjNleWFNSHdYS19hSnE3azExa2FkNGd2MTgyRmhQV2lodDFsN1ZDMjVnWUlOOWE4T2xYSUM1c1Y1YnYwZklmaXdVMHZDWEZFa2ZQWERB0gFiQVVfeXFMUGdqSFRQdWZmNTU2eVlLMVBiRGNOS0NubFJmSGQ2RUNFWEFJOXQ2RTV6VUE5eFo2M19FWUNoUnNtUElJaXJJMkJUaW5tMmtrdkUwRHYxWlRmYUlGMmd4SjlSRlE?oc=5",
+          "publishedAt": "2026-05-08T20:11:35.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE96R05lTjJWVjNleWFNSHdYS19hSnE3azExa2FkNGd2MTgyRmhQV2lodDFsN1ZDMjVnWUlOOWE4T2xYSUM1c1Y1YnYwZklmaXdVMHZDWEZFa2ZQWERB0gFiQVVfeXFMUGdqSFRQdWZmNTU2eVlLMVBiRGNOS0NubFJmSGQ2RUNFWEFJOXQ2RTV6VUE5eFo2M19FWUNoUnNtUElJaXJJMkJUaW5tMmtrdkUwRHYxWlRmYUlGMmd4SjlSRlE?oc=5\" target=\"_blank\">Cyril Ramaphosa impeachment call: Why South Africa President Cyril Ramaphosa dey face calls to resign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+          "matchedQuery": "South Africa court ruling protest parliament"
+        },
+        {
+          "title": "Lopez Aliaga, supporters call for fresh vote at Lima protest",
+          "publisher": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xMS1qdmluc05SQUx6VzBOMDAtSjFCQTZqT3k1QUpzdUFQZHhhSkdSbW9BdUh1clhCNTZWLXV2NlFYcjBDdm5vdnduMk9pdEhCajNEemk1SGplUjRsTmZULWRUV3I5eVU?oc=5",
+          "publishedAt": "2026-05-07T04:45:52.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xMS1qdmluc05SQUx6VzBOMDAtSjFCQTZqT3k1QUpzdUFQZHhhSkdSbW9BdUh1clhCNTZWLXV2NlFYcjBDdm5vdnduMk9pdEhCajNEemk1SGplUjRsTmZULWRUV3I5eVU?oc=5\" target=\"_blank\">Lopez Aliaga, supporters call for fresh vote at Lima protest</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+          "matchedQuery": "South Africa impeachment vote unrest"
         }
       ]
     },
     "mobilization": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 3,
-      "summary": "Organised mobilisation is present through taxi-strike language and anti-immigration protests across multiple locations.",
+      "updatedAt": "2026-05-13T13:04:24.418Z",
+      "score": 5,
+      "summary": "8 recent items matched. Newest tracked item: \"Ghana to return 300 people from South Africa due to anti-immigrant protests\".",
       "sourceIds": [
         "google-news-rss",
         "saps-newsroom"
       ],
       "evidence": [
         {
-          "title": "Long-distance taxi strike put on hold after permit talks progress",
-          "publisher": "East Coast Radio",
-          "url": "https://www.ecr.co.za/news/news/long-distance-taxi-strike-on-hold-after-permit-talks/",
-          "publishedAt": "2026-05-08T10:03:00.000Z",
-          "matchedQuery": "South Africa taxi strike protest",
-          "note": "The strike was paused, which helps, but the mobilisation machinery clearly exists."
+          "title": "Ghana to return 300 people from South Africa due to anti-immigrant protests",
+          "publisher": "Face2Face Africa",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU2VuWXZYbHVFOTJxVnhlaS0tdUo1QTJUOFQ1d1dGY1lCVWwtYVdpT3BFTjZmSkFrcGJQZlU1MlM3RTQzaEp1TjU0ZkJnaDZRdUF4WUtyMk5rZjBwMzNvbW15ZzJzamZJTUs5b0JrZHVueG1YLWVtYkQ0dVNqVjF0YUd0NVllMFkyaXFJdHpOT2dITkRBVHpMY0Zvd0FCV2Z6elJnQWZnU0pBYjcyejlkQw?oc=5",
+          "publishedAt": "2026-05-13T11:26:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPU2VuWXZYbHVFOTJxVnhlaS0tdUo1QTJUOFQ1d1dGY1lCVWwtYVdpT3BFTjZmSkFrcGJQZlU1MlM3RTQzaEp1TjU0ZkJnaDZRdUF4WUtyMk5rZjBwMzNvbW15ZzJzamZJTUs5b0JrZHVueG1YLWVtYkQ0dVNqVjF0YUd0NVllMFkyaXFJdHpOT2dITkRBVHpMY0Zvd0FCV2Z6elJnQWZnU0pBYjcyejlkQw?oc=5\" target=\"_blank\">Ghana to return 300 people from South Africa due to anti-immigrant protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Face2Face Africa</font>",
+          "matchedQuery": "South Africa anti immigrant protest"
         },
         {
-          "title": "Taxi bosses plan mass strike over Durban ban",
-          "publisher": "Scrolla.Africa",
-          "url": "https://scrolla.africa/taxi-bosses-plan-mass-strike-over-durban-ban/",
-          "publishedAt": "2026-05-04T00:00:00.000Z",
-          "matchedQuery": "South Africa taxi strike protest",
-          "note": "Taxi-sector escalation matters because it can flip commuter mobility fast."
+          "title": "Xenophobia rears its ugly head on South Africa’s streets",
+          "publisher": "MR Online",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalRnalRrZTVIeTM2Z1phckFYRG54LVpNMi1hcy1ncjhxZXVmR2xWVlliX1JtSUI3djBiNGpkZjdMMHVBS0F6MzlPa3dlei1MaGtpRWx0dkU5bXlPd0xLa0N2Ti1yVWZzYW5wdl9LRG5ncGMwZkFudjBtOEVtS1dNT1R0aW1YdkU2TkRQWjdQRWJWQQ?oc=5",
+          "publishedAt": "2026-05-13T10:02:17.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOalRnalRrZTVIeTM2Z1phckFYRG54LVpNMi1hcy1ncjhxZXVmR2xWVlliX1JtSUI3djBiNGpkZjdMMHVBS0F6MzlPa3dlei1MaGtpRWx0dkU5bXlPd0xLa0N2Ti1yVWZzYW5wdl9LRG5ncGMwZkFudjBtOEVtS1dNT1R0aW1YdkU2TkRQWjdQRWJWQQ?oc=5\" target=\"_blank\">Xenophobia rears its ugly head on South Africa’s streets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MR Online</font>",
+          "matchedQuery": "South Africa anti immigrant protest"
         },
         {
-          "title": "130 Nigerians seek repatriation after latest anti-immigration protests in South Africa",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/a45b2df526f7ed248ed7c222fb359559",
-          "publishedAt": "2026-05-04T15:26:21.000Z",
-          "matchedQuery": "South Africa anti immigrant protest",
-          "note": "Confirms multi-city protest energy with international spillover."
+          "title": "Ghana Evacuates 300 Citizens from South Africa Amid Xenophobic Violence",
+          "publisher": "streamlinefeed.co.ke",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVTlHMDlsQ2pSbF9kV3I3UFpJbllKSEU1eVJDd3NoU0FibEtsalFoRWE5TWlHbV9McW51YnNHbGRFdG93dl9KdERzb2wySGIzOVo5UDI0VUFrWVVaV1p3YVpWM0luTDcwSVU1MmhIMkY4LVByS3d3OWRlZjhYamNsVnlNeENNMlBNUHRCREw2dTVWUEx0bHhvNjVmWQ?oc=5",
+          "publishedAt": "2026-05-13T09:17:25.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOVTlHMDlsQ2pSbF9kV3I3UFpJbllKSEU1eVJDd3NoU0FibEtsalFoRWE5TWlHbV9McW51YnNHbGRFdG93dl9KdERzb2wySGIzOVo5UDI0VUFrWVVaV1p3YVpWM0luTDcwSVU1MmhIMkY4LVByS3d3OWRlZjhYamNsVnlNeENNMlBNUHRCREw2dTVWUEx0bHhvNjVmWQ?oc=5\" target=\"_blank\">Ghana Evacuates 300 Citizens from South Africa Amid Xenophobic Violence</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">streamlinefeed.co.ke</font>",
+          "matchedQuery": "South Africa anti immigrant protest"
+        },
+        {
+          "title": "Ghana to Evacuate 300 Citizens from South Africa Amid Xenophobic Protests",
+          "publisher": "streamlinefeed.co.ke",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTFp4bEJyLUVWMjZUUjlzemRseVBvdUQ5OFZWY0EyaGIxTmFILWp5MUwyYzU5UE9mSEJjZlBld0VReG5nbFIzWDNEaDJ4Tm9ublNqcW02UHA5YzZJZjZhdURERHVYWEN4WWMyOXdLc0F6SlVYSkY3bVFUcFdUR2E4MnBiZUZRaVlVSWM4VVhBeV9heVR0SnNxazJYMmE0eng4X0tZUEhiSWZZeUE?oc=5",
+          "publishedAt": "2026-05-13T08:58:37.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTFp4bEJyLUVWMjZUUjlzemRseVBvdUQ5OFZWY0EyaGIxTmFILWp5MUwyYzU5UE9mSEJjZlBld0VReG5nbFIzWDNEaDJ4Tm9ublNqcW02UHA5YzZJZjZhdURERHVYWEN4WWMyOXdLc0F6SlVYSkY3bVFUcFdUR2E4MnBiZUZRaVlVSWM4VVhBeV9heVR0SnNxazJYMmE0eng4X0tZUEhiSWZZeUE?oc=5\" target=\"_blank\">Ghana to Evacuate 300 Citizens from South Africa Amid Xenophobic Protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">streamlinefeed.co.ke</font>",
+          "matchedQuery": "South Africa anti immigrant protest"
+        },
+        {
+          "title": "Ghana to evacuate 300 from South Africa over anti-immigrant protests",
+          "publisher": "AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWHRQc1lqNkdVM0Z6eXNyTnpic2dXNjhJU01SNDdNelY5ODVDLWR6SmpKUWd5M2hWdnhRYzQ0RnM1bm1sNHpLRTM4NWszdHh3Tzg2QWNlbko3bEhEQlRLd0hPMXVTRG14S0kzR1F3dVlvRkk2UGZFd2RMOGZnWi15YQ?oc=5",
+          "publishedAt": "2026-05-13T08:35:27.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNWHRQc1lqNkdVM0Z6eXNyTnpic2dXNjhJU01SNDdNelY5ODVDLWR6SmpKUWd5M2hWdnhRYzQ0RnM1bm1sNHpLRTM4NWszdHh3Tzg2QWNlbko3bEhEQlRLd0hPMXVTRG14S0kzR1F3dVlvRkk2UGZFd2RMOGZnWi15YQ?oc=5\" target=\"_blank\">Ghana to evacuate 300 from South Africa over anti-immigrant protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>",
+          "matchedQuery": "South Africa anti immigrant protest"
+        },
+        {
+          "title": "Ghana to evacuate 300 from South Africa over anti-immigrant protests",
+          "publisher": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kdnd5aFh1SHFmcjBXcE5CWVZmMi1ORDFKMS1oWFNSU0ZQOVNBZVNvZUU0RGRNY01Id3J4U1dMUlpwRkFvYUVKZl9ORmFJMEhISVpnREFzTWhmUQ?oc=5",
+          "publishedAt": "2026-05-13T08:24:28.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kdnd5aFh1SHFmcjBXcE5CWVZmMi1ORDFKMS1oWFNSU0ZQOVNBZVNvZUU0RGRNY01Id3J4U1dMUlpwRkFvYUVKZl9ORmFJMEhISVpnREFzTWhmUQ?oc=5\" target=\"_blank\">Ghana to evacuate 300 from South Africa over anti-immigrant protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+          "matchedQuery": "South Africa anti immigrant protest"
+        },
+        {
+          "title": "Taxi Strike Cape Town",
+          "publisher": "GroundUp",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wQnRnNGJURENEYnI0WjVkRk9ocnpVWXFVWjZSOGJFMEt0WHluVjdEaU5WRGZRWThIRWdkVld6Wm5vY0xIXy02ZVZvSDdzM3JNV0dDeHpMUUV2MzhOZkdvSW1XbHAxa3c?oc=5",
+          "publishedAt": "2026-05-13T06:48:04.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wQnRnNGJURENEYnI0WjVkRk9ocnpVWXFVWjZSOGJFMEt0WHluVjdEaU5WRGZRWThIRWdkVld6Wm5vY0xIXy02ZVZvSDdzM3JNV0dDeHpMUUV2MzhOZkdvSW1XbHAxa3c?oc=5\" target=\"_blank\">Taxi Strike Cape Town</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GroundUp</font>",
+          "matchedQuery": "South Africa taxi strike protest"
+        },
+        {
+          "title": "GroundUp Images: Gallery of high-quality free South African news photos | Members of the anti-immigration vigilante group known as Operation Dudula are confronted by police during a protest staged by the group during the G20 leaders summit near Nasrec i",
+          "publisher": "GroundUp",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pSWR6Rks0bTBEeElUeUx4MXk3TzJ4VTdyeExfUU9hVk5zSG9jMVQtSVJCOG5taWRqeDJzLTA2cGlLTUxscE9xc1hsblp3dGdfUjZNYXFyaGd5aTZrXzJHQ25xcGhuR2s?oc=5",
+          "publishedAt": "2026-05-13T02:40:38.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pSWR6Rks0bTBEeElUeUx4MXk3TzJ4VTdyeExfUU9hVk5zSG9jMVQtSVJCOG5taWRqeDJzLTA2cGlLTUxscE9xc1hsblp3dGdfUjZNYXFyaGd5aTZrXzJHQ25xcGhuR2s?oc=5\" target=\"_blank\">GroundUp Images: Gallery of high-quality free South African news photos | Members of the anti-immigration vigilante group known as Operation Dudula are confronted by police during a protest staged by the group during the G20 leaders summit near Nasrec i</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GroundUp</font>",
+          "matchedQuery": "South Africa anti immigrant protest"
         }
       ]
     },
     "police-capacity": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 2,
-      "summary": "There is no clean nationwide evidence of systemic failure, but live inquiry and operation reporting suggest continued pressure on policing bandwidth.",
+      "updatedAt": "2026-05-13T13:04:25.697Z",
+      "score": 3,
+      "summary": "8 recent items matched. Newest tracked item: \"Senior SAPS officers arrested over precious metals corruption probe\".",
       "sourceIds": [
         "google-news-rss",
         "saps-newsroom",
@@ -131,111 +315,368 @@
       ],
       "evidence": [
         {
-          "title": "Media Statement: Committee Resolves To Request an Extension for Gang-Related Violence Inquiry",
-          "publisher": "Parliament of South Africa",
-          "url": "https://www.parliament.gov.za/press-releases/media-statement-committee-resolves-request-extension-gang-related-violence-inquiry",
-          "publishedAt": "2026-05-06T00:00:00.000Z",
-          "matchedQuery": "South Africa police capacity inquiry",
-          "note": "Parliament extending a gang-violence inquiry is a meaningful pressure signal."
+          "title": "Senior SAPS officers arrested over precious metals corruption probe",
+          "publisher": "Cape Town ETC",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0NYVER2TXc1Uld2YngwM1ppMEh3WnFWWjA2QlJiYTNWM0czMzZtNEw0MzhhRm1FMy1jTWtyN1labXV4d3A1RDZtbmYycndydHg4bG1FNk5EWXdna285Z1NHbXF5SUtpNjNtSHc4eEhtd2lVMkx1cFI0aDhMeUdydmg0YTNKNmxaRk53NzdwNjFzV0FZQlNuZG1QanRGelU?oc=5",
+          "publishedAt": "2026-05-10T15:30:15.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0NYVER2TXc1Uld2YngwM1ppMEh3WnFWWjA2QlJiYTNWM0czMzZtNEw0MzhhRm1FMy1jTWtyN1labXV4d3A1RDZtbmYycndydHg4bG1FNk5EWXdna285Z1NHbXF5SUtpNjNtSHc4eEhtd2lVMkx1cFI0aDhMeUdydmg0YTNKNmxaRk53NzdwNjFzV0FZQlNuZG1QanRGelU?oc=5\" target=\"_blank\">Senior SAPS officers arrested over precious metals corruption probe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cape Town ETC</font>",
+          "matchedQuery": "South Africa SAPS operation statement"
         },
         {
-          "title": "South African Police Service in Limpopo continues to tighten the grip on crime through Operation Shanela",
-          "publisher": "SAPS",
-          "url": "https://www.saps.gov.za/newsroom/selectNews/selnewsdetail1.php",
-          "publishedAt": "2026-03-15T00:00:00.000Z",
-          "matchedQuery": "South Africa SAPS operation statement",
-          "note": "Official operations continue, which cuts against a pure collapse narrative."
+          "title": "11 suspects arrested in Meyerton for theft of fuel",
+          "publisher": "SABC News",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yck1Jb2tvdHEzbE9YWV81dzNRNWJNd2J0OEtPdEszM2tmOHhSOVJZVXhVMFUtZWxIWjZYSWdKdURBS2MxTUFGb2JHN1RBWHFra21jMW0ydw?oc=5",
+          "publishedAt": "2026-05-10T13:19:52.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yck1Jb2tvdHEzbE9YWV81dzNRNWJNd2J0OEtPdEszM2tmOHhSOVJZVXhVMFUtZWxIWjZYSWdKdURBS2MxTUFGb2JHN1RBWHFra21jMW0ydw?oc=5\" target=\"_blank\">11 suspects arrested in Meyerton for theft of fuel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SABC News</font>",
+          "matchedQuery": "South Africa SAPS operation statement"
+        },
+        {
+          "title": "Accountability or theatre? The political ballet of South Africa's police scandal",
+          "publisher": "Cape Times",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Jakw1XzY0M3dIZS1BMkUxaE91bzBmUEJKMDI0cWVkR0dSSkcxeTByS3JsNlJYRGJZdEhMVG8xSllkYkxfNHZuVXVCT1U4bzdONFE2OWRLY0NWemFrOHlJTUVTZDc3TWhpcUE?oc=5",
+          "publishedAt": "2026-05-10T01:22:17.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE5Jakw1XzY0M3dIZS1BMkUxaE91bzBmUEJKMDI0cWVkR0dSSkcxeTByS3JsNlJYRGJZdEhMVG8xSllkYkxfNHZuVXVCT1U4bzdONFE2OWRLY0NWemFrOHlJTUVTZDc3TWhpcUE?oc=5\" target=\"_blank\">Accountability or theatre? The political ballet of South Africa's police scandal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cape Times</font>",
+          "matchedQuery": "South Africa police capacity inquiry"
+        },
+        {
+          "title": "South African Police Retrieve Human Remains From Crocodile",
+          "publisher": "Koran Manado",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBBZDdaZmRTMW9WV1J4SVc0Tzg1RVJyV0tuVk9mSFFwNVc5ajhNUWF6RGE3bXFITHZrTHFwYWFoVXhsNGdwSFJyX0tkZXoxcWxkSlQ5NThNd3A1WnllV0ZVVk56WlBvZ2hfc2xGeUhZdDJrbU5hQkZVamI2WTk?oc=5",
+          "publishedAt": "2026-05-08T13:13:40.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBBZDdaZmRTMW9WV1J4SVc0Tzg1RVJyV0tuVk9mSFFwNVc5ajhNUWF6RGE3bXFITHZrTHFwYWFoVXhsNGdwSFJyX0tkZXoxcWxkSlQ5NThNd3A1WnllV0ZVVk56WlBvZ2hfc2xGeUhZdDJrbU5hQkZVamI2WTk?oc=5\" target=\"_blank\">South African Police Retrieve Human Remains From Crocodile</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Koran Manado</font>",
+          "matchedQuery": "South Africa SAPS operation statement"
+        },
+        {
+          "title": "Police war on gang violence hampered by personnel shortages",
+          "publisher": "eNCA",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeGZ1WFpCRTlUVlJQYTFHbXUwZWRkU0V4NWl3YlpVVWFWc3FrdmV5Vy1NMVZHWXJQcXRfbFBZOV9XRnhxaWxRTHRWNWRPZXUwUHhkS05nX0xGck1uT0tvMFpBTGxQUjhYaFU5c3FZbzYxR1JSbGpzdnlGcUFfN2ZEV0dCZTdfRHI0Mi1BQnpHeW5KMGV6dFE?oc=5",
+          "publishedAt": "2026-05-07T05:01:11.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQeGZ1WFpCRTlUVlJQYTFHbXUwZWRkU0V4NWl3YlpVVWFWc3FrdmV5Vy1NMVZHWXJQcXRfbFBZOV9XRnhxaWxRTHRWNWRPZXUwUHhkS05nX0xGck1uT0tvMFpBTGxQUjhYaFU5c3FZbzYxR1JSbGpzdnlGcUFfN2ZEV0dCZTdfRHI0Mi1BQnpHeW5KMGV6dFE?oc=5\" target=\"_blank\">Police war on gang violence hampered by personnel shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eNCA</font>",
+          "matchedQuery": "South Africa police capacity inquiry"
+        },
+        {
+          "title": "SAPS Captain praised for bravery",
+          "publisher": "South African Government News Agency",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Oalh6d3kwQVJ5N0pfWHJkRFdxeFViQ08wMVB5Z1FBSzVXR2ZFeEU0QlAtY0tUa1RGX2RwVTNoanZ3WDJZbE5uM3V5eHNKR0tZYTVZZFpibDlNWFl3ajZ0aTdUbVVRM2M2SV9UZGdKUzRfeTd6ZUE?oc=5",
+          "publishedAt": "2026-05-04T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5Oalh6d3kwQVJ5N0pfWHJkRFdxeFViQ08wMVB5Z1FBSzVXR2ZFeEU0QlAtY0tUa1RGX2RwVTNoanZ3WDJZbE5uM3V5eHNKR0tZYTVZZFpibDlNWFl3ajZ0aTdUbVVRM2M2SV9UZGdKUzRfeTd6ZUE?oc=5\" target=\"_blank\">SAPS Captain praised for bravery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">South African Government News Agency</font>",
+          "matchedQuery": "South Africa SAPS operation statement"
+        },
+        {
+          "title": "Media Statement: Select Committee on Security and Justice Notes Improved Cooperative Governance in Matlosana",
+          "publisher": "Parliament of South Africa",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOXzV6N1N6cUxXY093dGlEa0sxcS05Z0hzelp5a3Q3UDRyQl9NYWVWaHJEdkVwcHFOSUg3MnRQTmhWZEp2Vm9TbmRJTXJITEtlY0RwbFpBN1N3eXpaSEx1N2JTNU56UWpXTzFBYm9CXzk5alBEd2JGVkxuck50UVRnazZpa3ZTWS0tVmpjck9DNUNGM1RaWW50N3JDWG5SeWVYRy00ZzRONlh0cmhKcGxkbWFuUXFSQ3lFa3hLOWNVYzQ5VmJlSXhjZklCWkNpdE1jU1Q5V3BHX3FxNWRKU1dz?oc=5",
+          "publishedAt": "2026-04-24T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxOXzV6N1N6cUxXY093dGlEa0sxcS05Z0hzelp5a3Q3UDRyQl9NYWVWaHJEdkVwcHFOSUg3MnRQTmhWZEp2Vm9TbmRJTXJITEtlY0RwbFpBN1N3eXpaSEx1N2JTNU56UWpXTzFBYm9CXzk5alBEd2JGVkxuck50UVRnazZpa3ZTWS0tVmpjck9DNUNGM1RaWW50N3JDWG5SeWVYRy00ZzRONlh0cmhKcGxkbWFuUXFSQ3lFa3hLOWNVYzQ5VmJlSXhjZklCWkNpdE1jU1Q5V3BHX3FxNWRKU1dz?oc=5\" target=\"_blank\">Media Statement: Select Committee on Security and Justice Notes Improved Cooperative Governance in Matlosana</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Parliament of South Africa</font>",
+          "matchedQuery": "South Africa SAPS operation statement"
+        },
+        {
+          "title": "Ramaphosa appoints Puleng Dimpane as acting SAPS commissioner",
+          "publisher": "Daily Maverick",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSFNBM0tDYUFVSGtJRTBmMUNrdkZmZl9PWEJpUmVNNFduQkhPWk9QN2dYZ29VbHVoN2taZm5TVEZsODN3Mjl1VWNSQ1dnRl9FYmVyeVM2emFwYlN3U29RX3pmRm5UZktBa1dBRmZ3S2NoT2I4dTJmVk5OLU9JZUtwZGhmU0p2TjRoSXZ0VlQ4UHdJUUhRWHBhLXRwUXVDblJyUk9fUzdDOENrTEdkaW5MRUNyQmNMSXUtVnZzTzJGb1FBRzl0MHpSQkRhOXRjMUowTjZ4SXpHTWpkS3E0OHFQc3NtWDBsN0xicnc?oc=5",
+          "publishedAt": "2026-04-23T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSFNBM0tDYUFVSGtJRTBmMUNrdkZmZl9PWEJpUmVNNFduQkhPWk9QN2dYZ29VbHVoN2taZm5TVEZsODN3Mjl1VWNSQ1dnRl9FYmVyeVM2emFwYlN3U29RX3pmRm5UZktBa1dBRmZ3S2NoT2I4dTJmVk5OLU9JZUtwZGhmU0p2TjRoSXZ0VlQ4UHdJUUhRWHBhLXRwUXVDblJyUk9fUzdDOENrTEdkaW5MRUNyQmNMSXUtVnZzTzJGb1FBRzl0MHpSQkRhOXRjMUowTjZ4SXpHTWpkS3E0OHFQc3NtWDBsN0xicnc?oc=5\" target=\"_blank\">Ramaphosa appoints Puleng Dimpane as acting SAPS commissioner</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Maverick</font>",
+          "matchedQuery": "South Africa police capacity inquiry"
         }
       ]
     },
     "local-protests": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 2,
-      "summary": "Several localised protest and road-block stories are current enough to matter operationally, even if they do not add up to a national shutdown.",
+      "updatedAt": "2026-05-13T13:04:27.173Z",
+      "score": 1,
+      "summary": "8 recent items matched. Newest tracked item: \"How a Johannesburg water crisis could dump the ANC from power\".",
       "sourceIds": [
         "google-news-rss",
         "parliament-press"
       ],
       "evidence": [
         {
-          "title": "Taxi strike brings major Klerksdorp roads to a standstill",
-          "publisher": "OFM",
-          "url": "https://www.ofm.co.za/article/centralsa/341100/taxi-strike-brings-major-klerksdorp-roads-to-a-standstill",
-          "publishedAt": "2026-03-23T12:01:00.000Z",
-          "matchedQuery": "South Africa local protest road blocked",
-          "note": "A good example of how local disruptions become immediate household movement problems."
+          "title": "How a Johannesburg water crisis could dump the ANC from power",
+          "publisher": "The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbzlrT2lTelRHVk5XMHEzUGFSd2pQOHkyVldkWjZ2WU4zTU9uUHllQU95N1A5T1JKQ3Jhc3lvc3dZVGlhZ0lWYjIxdVY0OEVubzNsX0xub2pFQV95c0VtdEV1YWlQRV9JdFVtY2V2VGhVMjlXeUt1Q01uajVtWlRYZ1ZiR3RPM190RVY0LTdtbWJhTzU3bm9LSFNLbEhDQmNwQjlxR0NEcXc3Q2RZ?oc=5",
+          "publishedAt": "2026-05-10T10:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPbzlrT2lTelRHVk5XMHEzUGFSd2pQOHkyVldkWjZ2WU4zTU9uUHllQU95N1A5T1JKQ3Jhc3lvc3dZVGlhZ0lWYjIxdVY0OEVubzNsX0xub2pFQV95c0VtdEV1YWlQRV9JdFVtY2V2VGhVMjlXeUt1Q01uajVtWlRYZ1ZiR3RPM190RVY0LTdtbWJhTzU3bm9LSFNLbEhDQmNwQjlxR0NEcXc3Q2RZ?oc=5\" target=\"_blank\">How a Johannesburg water crisis could dump the ANC from power</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>",
+          "matchedQuery": "South Africa local protest road blocked"
         },
         {
-          "title": "Media Statement: COGTA Committee Condemns Violent Kugompo Protests and Reaffirms Rule of Law",
-          "publisher": "Parliament of South Africa",
-          "url": "https://www.parliament.gov.za/press-releases/media-statement-cogta-committee-condemns-violent-kugompo-protests-and-reaffirms-rule-law",
-          "publishedAt": "2026-03-31T00:00:00.000Z",
-          "matchedQuery": "South Africa service delivery protest road closure",
-          "note": "Violent local protest action still matters even when it is geographically narrow."
+          "title": "Traffic Disruption Expected in Durban as “March and March” Plans Durban CBD Protest",
+          "publisher": "Central News South Africa",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMGZQZmR0MlpNT1ZyTXZ1blozU3FnSkZLNmZZNW85M2JGX1MzV0k1b0h5RHZBWmZtazNyNUR1QUpBQnBXMEtRTjVnWl9McEFWY0RuaGVYTVVYUDVkV2JZdmZ2cFM4b2c1M0NPTjk4OS1nRVdHTEpkcDcwcFpKZ2NtWkFxNXM0aFVmbE1FbVI4ZE5ScnUxYlI4STYzQWpQSE5xZ3dkTVROazl5UzND?oc=5",
+          "publishedAt": "2026-05-06T12:28:26.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPMGZQZmR0MlpNT1ZyTXZ1blozU3FnSkZLNmZZNW85M2JGX1MzV0k1b0h5RHZBWmZtazNyNUR1QUpBQnBXMEtRTjVnWl9McEFWY0RuaGVYTVVYUDVkV2JZdmZ2cFM4b2c1M0NPTjk4OS1nRVdHTEpkcDcwcFpKZ2NtWkFxNXM0aFVmbE1FbVI4ZE5ScnUxYlI4STYzQWpQSE5xZ3dkTVROazl5UzND?oc=5\" target=\"_blank\">Traffic Disruption Expected in Durban as “March and March” Plans Durban CBD Protest</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Central News South Africa</font>",
+          "matchedQuery": "South Africa service delivery protest road closure"
+        },
+        {
+          "title": "Taxis block streets to demand repairs to potholed roads",
+          "publisher": "GroundUp",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUpDQWRNZUdIYlNNQlUwRENadVJlTXNRQWpGZVMtSEh0ZHdKN2NZeExWR2ZxYmZ1RWd1R2NRVTUxelRKWWI2OG42blEwVXMwRmx3ajNFVGdWZHJkSFV0OUZJdGdVcmdDQ1ZScXBYTG9hMnlleUE3MDVfUFZPR3pOU3pZaHBmRkpLUGsyWERRRE1CMDVWZUZVRUdDbDdlRTA?oc=5",
+          "publishedAt": "2026-04-08T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQMUpDQWRNZUdIYlNNQlUwRENadVJlTXNRQWpGZVMtSEh0ZHdKN2NZeExWR2ZxYmZ1RWd1R2NRVTUxelRKWWI2OG42blEwVXMwRmx3ajNFVGdWZHJkSFV0OUZJdGdVcmdDQ1ZScXBYTG9hMnlleUE3MDVfUFZPR3pOU3pZaHBmRkpLUGsyWERRRE1CMDVWZUZVRUdDbDdlRTA?oc=5\" target=\"_blank\">Taxis block streets to demand repairs to potholed roads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GroundUp</font>",
+          "matchedQuery": "South Africa local protest road blocked"
+        },
+        {
+          "title": "Nkandla villagers block roads demanding permanent repairs",
+          "publisher": "GroundUp",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUkNFTG9wbWlLeDR2UmhJV3A2M0ppYkd1LWxaOVVvcG4xWU15dTY2TzNBQlZPZ1hGbjEzekxZV0RzTTd0Z1ZVbDEtZHJ4dmlIanB4U3NfVTlneUo0czJWWDNPSmtfMXlkdEVxbG1lNU1lVm1hYzRWMjVpeHBLM0RVSVJmVVdFNnVRd3BlNDVqanBBRjlweW01OGNRUTVmbUY2WWZkM0FNbmFMUQ?oc=5",
+          "publishedAt": "2026-03-12T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUkNFTG9wbWlLeDR2UmhJV3A2M0ppYkd1LWxaOVVvcG4xWU15dTY2TzNBQlZPZ1hGbjEzekxZV0RzTTd0Z1ZVbDEtZHJ4dmlIanB4U3NfVTlneUo0czJWWDNPSmtfMXlkdEVxbG1lNU1lVm1hYzRWMjVpeHBLM0RVSVJmVVdFNnVRd3BlNDVqanBBRjlweW01OGNRUTVmbUY2WWZkM0FNbmFMUQ?oc=5\" target=\"_blank\">Nkandla villagers block roads demanding permanent repairs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GroundUp</font>",
+          "matchedQuery": "South Africa local protest road blocked"
+        },
+        {
+          "title": "South Africa deploys soldiers to the streets to tackle organized and violent crime",
+          "publisher": "TownAndCountryToday.com",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSW5aMjhuNmlxODJtLWZvSUlQNHdpSUpwQ0ItWm5Cd3JoQldSakoxbWc4cTExaERid0VrdEt3X0E1c2xTVnF2T3FiUWhGNWpNSXVtV3lSZWppUG5LNnFOaGc1YnZmdDgzVGZOS18zOWczYXF5b3ZkSE5hSUlKanRmTjZuY2pDcTRSeTNkZkh4aFY4RXFoRHBjcVpyNFFjMHlfenpMWWI5VWRCbzFpdlR4VjNwRlpYSlh5MnNReVFnYzZFYS1vTENxVTYxcVJKWG1zNjNFTw?oc=5",
+          "publishedAt": "2026-03-11T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSW5aMjhuNmlxODJtLWZvSUlQNHdpSUpwQ0ItWm5Cd3JoQldSakoxbWc4cTExaERid0VrdEt3X0E1c2xTVnF2T3FiUWhGNWpNSXVtV3lSZWppUG5LNnFOaGc1YnZmdDgzVGZOS18zOWczYXF5b3ZkSE5hSUlKanRmTjZuY2pDcTRSeTNkZkh4aFY4RXFoRHBjcVpyNFFjMHlfenpMWWI5VWRCbzFpdlR4VjNwRlpYSlh5MnNReVFnYzZFYS1vTENxVTYxcVJKWG1zNjNFTw?oc=5\" target=\"_blank\">South Africa deploys soldiers to the streets to tackle organized and violent crime</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TownAndCountryToday.com</font>",
+          "matchedQuery": "South Africa violent protest town roads"
+        },
+        {
+          "title": "Thembisa residents block roads from 4am despite mayor’s olive branch",
+          "publisher": "TimesLIVE",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTHJsU29XMmwzQ0tiUDhQYU81YXhIMnUzUm1IakJ4TVdLLXhRYWhUUEhRbEo2LUFOTVJZTUNLRzVuSTJCWjhVZGhQTnpJNm5EVGlMMVlOdmxoTUl5YU5KVFdRNjE1bjljNHF4WTFCQ1lQcVE5X21HeXZabkRvMWZvd3dULUNERzlJTVpkUGk0RGdOZGpldjlYTWd2Y0YtMEJXVU9yaG5JT3V0cFk2RWtrN19QbWdaSkQzenUtaTRoaFhrdw?oc=5",
+          "publishedAt": "2026-02-23T08:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTHJsU29XMmwzQ0tiUDhQYU81YXhIMnUzUm1IakJ4TVdLLXhRYWhUUEhRbEo2LUFOTVJZTUNLRzVuSTJCWjhVZGhQTnpJNm5EVGlMMVlOdmxoTUl5YU5KVFdRNjE1bjljNHF4WTFCQ1lQcVE5X21HeXZabkRvMWZvd3dULUNERzlJTVpkUGk0RGdOZGpldjlYTWd2Y0YtMEJXVU9yaG5JT3V0cFk2RWtrN19QbWdaSkQzenUtaTRoaFhrdw?oc=5\" target=\"_blank\">Thembisa residents block roads from 4am despite mayor’s olive branch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TimesLIVE</font>",
+          "matchedQuery": "South Africa local protest road blocked"
+        },
+        {
+          "title": "Tembisa Residents Protest Over Poor Service Delivery",
+          "publisher": "Central News South Africa",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX0RDZERlcWpuUDhPbVJCeERJd2FicHJ0akY2N1F4Y0RiNHlSZjNQUTBUdUJYblZGZXh2QWdLTEp4NFotcTBPaVY0czBaNUZidm5jN2NoU1pKVkptbm1UNWIyeFJDclhCY1EzQm5CSWRndUtWaS1QWDh1N05PenRwNnRrRWxZQQ?oc=5",
+          "publishedAt": "2026-02-23T08:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOX0RDZERlcWpuUDhPbVJCeERJd2FicHJ0akY2N1F4Y0RiNHlSZjNQUTBUdUJYblZGZXh2QWdLTEp4NFotcTBPaVY0czBaNUZidm5jN2NoU1pKVkptbm1UNWIyeFJDclhCY1EzQm5CSWRndUtWaS1QWDh1N05PenRwNnRrRWxZQQ?oc=5\" target=\"_blank\">Tembisa Residents Protest Over Poor Service Delivery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Central News South Africa</font>",
+          "matchedQuery": "South Africa service delivery protest road closure"
+        },
+        {
+          "title": "Tembisa residents barricade roads amid service delivery protest",
+          "publisher": "The South African",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeVFGZjYwN2Y4alhIaHc5cThXeE5SQ3JKZmlreTZNMFQ1cWE0aEE3d1EtQ1p1aHNPam5mMUFGWUJOeTczZ2JaWEJCSU93dUEwYkJJcEhBT3owTkE3dkQ3NEZfdmdGdHB3MUd6WVBNUktoaHltaEw5cUhBVDFxN1hFOWszU0w4UWl3S3RtM2RlZXpvenlpRHZjd2RjLXdNWFdETzgw?oc=5",
+          "publishedAt": "2026-02-23T08:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNeVFGZjYwN2Y4alhIaHc5cThXeE5SQ3JKZmlreTZNMFQ1cWE0aEE3d1EtQ1p1aHNPam5mMUFGWUJOeTczZ2JaWEJCSU93dUEwYkJJcEhBT3owTkE3dkQ3NEZfdmdGdHB3MUd6WVBNUktoaHltaEw5cUhBVDFxN1hFOWszU0w4UWl3S3RtM2RlZXpvenlpRHZjd2RjLXdNWFdETzgw?oc=5\" target=\"_blank\">Tembisa residents barricade roads amid service delivery protest</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The South African</font>",
+          "matchedQuery": "South Africa service delivery protest road closure"
         }
       ]
     },
     "food-pharmacy": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
+      "updatedAt": "2026-05-13T13:04:28.536Z",
       "score": 0,
-      "summary": "This snapshot does not show strong evidence of broad retail or pharmacy availability failure.",
+      "summary": "8 recent items matched. Newest tracked item: \"On South Africa’s household food insecurity challenges\".",
       "sourceIds": [
         "google-news-rss",
         "pmbejd-data"
       ],
-      "evidence": []
+      "evidence": [
+        {
+          "title": "On South Africa’s household food insecurity challenges",
+          "publisher": "Wandile Sihlobo | Substack",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfMnNTZDZSdFkybzBncHRtaGl5WFI4N2xybnJXV1BJODEtWVJxVnlQci0xV2JZR2VrdGhpYUxrTTQtM1ljWUtNUXd0WDEzNkJBcWlGclpUSkxaVk9CUWpQVnpXSmczSnNrYkd1TkNodGQ3c3E1UE1XamVhT2xpQQ?oc=5",
+          "publishedAt": "2026-05-04T13:01:39.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBfMnNTZDZSdFkybzBncHRtaGl5WFI4N2xybnJXV1BJODEtWVJxVnlQci0xV2JZR2VrdGhpYUxrTTQtM1ljWUtNUXd0WDEzNkJBcWlGclpUSkxaVk9CUWpQVnpXSmczSnNrYkd1TkNodGQ3c3E1UE1XamVhT2xpQQ?oc=5\" target=\"_blank\">On South Africa’s household food insecurity challenges</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wandile Sihlobo | Substack</font>",
+          "matchedQuery": "South Africa food shortages stores"
+        },
+        {
+          "title": "Medicine shortages loom over Iran hospitals, pharmacies",
+          "publisher": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkSHJqeXhxYXp5TXlHTEQ5eU9PTnBWaG9XRF9FTXlWb0NqN0QyVGdwRGZMMVd6VkU3d0ZKS3lVdEtua0lMbXZZM0NNZGVFN1MwNVhMM1JlMnk4Sm5ZUm92ZFFfcjl1RXM?oc=5",
+          "publishedAt": "2026-04-24T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkSHJqeXhxYXp5TXlHTEQ5eU9PTnBWaG9XRF9FTXlWb0NqN0QyVGdwRGZMMVd6VkU3d0ZKS3lVdEtua0lMbXZZM0NNZGVFN1MwNVhMM1JlMnk4Sm5ZUm92ZFFfcjl1RXM?oc=5\" target=\"_blank\">Medicine shortages loom over Iran hospitals, pharmacies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+          "matchedQuery": "South Africa pharmacy shortages"
+        },
+        {
+          "title": "Momentum builds for local drug production",
+          "publisher": "African Business",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbUN3SG9ITElUMTBWb3kwQVhyazVzczdMNVFsNGgwd2lVaEx4UF9xc3NnLWZkWmpqcExFOVJ4Z1VuZGl1bE10SzBIVnMzb0xVakRGSkkxR1pqSXpEWXRYVHpnU09rS2h1a01JZU1PanNJSU9QbF80NWNPa29LME5jWVJEMVBHYnY5VlRDeWJNX0JhSG9hQmc?oc=5",
+          "publishedAt": "2026-04-03T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNbUN3SG9ITElUMTBWb3kwQVhyazVzczdMNVFsNGgwd2lVaEx4UF9xc3NnLWZkWmpqcExFOVJ4Z1VuZGl1bE10SzBIVnMzb0xVakRGSkkxR1pqSXpEWXRYVHpnU09rS2h1a01JZU1PanNJSU9QbF80NWNPa29LME5jWVJEMVBHYnY5VlRDeWJNX0JhSG9hQmc?oc=5\" target=\"_blank\">Momentum builds for local drug production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">African Business</font>",
+          "matchedQuery": "South Africa pharmacy shortages"
+        },
+        {
+          "title": "Committed to halving food waste by 2030, South Africa doesn’t know if it’s winning",
+          "publisher": "Daily Maverick",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPclVoT1otMmtUNHp1VWdWWjdfUWhvTVN0NGdkOTdDV3oyZktpdUlseVNpM3dvRlNuRlZwbEU3UzRaRUVzWTJTcFF2YmdxdmR4R1NfbFJCU3JlV05ubHNCZW4tSno0b3FOcXdGMTdLYlZoSXhCVFRHbTZHM1V5RTlNSk9yMnBET0JUUWg0NWh0RXJNN3Nwak9KZVFLSEdRRE0teTFISmNsTHUxZE00dURKQ0xJZDE0Yk5lX0RqM294R3l1eWlycjdEajRlaw?oc=5",
+          "publishedAt": "2026-03-31T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPclVoT1otMmtUNHp1VWdWWjdfUWhvTVN0NGdkOTdDV3oyZktpdUlseVNpM3dvRlNuRlZwbEU3UzRaRUVzWTJTcFF2YmdxdmR4R1NfbFJCU3JlV05ubHNCZW4tSno0b3FOcXdGMTdLYlZoSXhCVFRHbTZHM1V5RTlNSk9yMnBET0JUUWg0NWh0RXJNN3Nwak9KZVFLSEdRRE0teTFISmNsTHUxZE00dURKQ0xJZDE0Yk5lX0RqM294R3l1eWlycjdEajRlaw?oc=5\" target=\"_blank\">Committed to halving food waste by 2030, South Africa doesn’t know if it’s winning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Maverick</font>",
+          "matchedQuery": "South Africa food shortages stores"
+        },
+        {
+          "title": "How reducing ‘just in case’ purchases can help avoid empty shelves and fuel bowsers",
+          "publisher": "The Conversation",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMlhFaDYtYlZmOWZ4djV6Y1F2VnlrT1drS1pPbVdyVG9fNVVOQ0lUM2FVcEw4eHZCS01XelZVdWxCMTJpejloV3RSS2ZkWGMtY0Z5a1daVHBfVlpoTGJoWGV4aUptX2NGaUtGemFhSURTVVdlY25weVBZYS11Vnp2ay1vMEJoT0ZzX2hJamFnSXlXRW9nbkw0RGtJWm5zSGZESU9WUEo3TTB3M3VfeWRWbTVWSnhVb0U?oc=5",
+          "publishedAt": "2026-03-23T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOMlhFaDYtYlZmOWZ4djV6Y1F2VnlrT1drS1pPbVdyVG9fNVVOQ0lUM2FVcEw4eHZCS01XelZVdWxCMTJpejloV3RSS2ZkWGMtY0Z5a1daVHBfVlpoTGJoWGV4aUptX2NGaUtGemFhSURTVVdlY25weVBZYS11Vnp2ay1vMEJoT0ZzX2hJamFnSXlXRW9nbkw0RGtJWm5zSGZESU9WUEo3TTB3M3VfeWRWbTVWSnhVb0U?oc=5\" target=\"_blank\">How reducing ‘just in case’ purchases can help avoid empty shelves and fuel bowsers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+          "matchedQuery": "South Africa panic buying shelves"
+        },
+        {
+          "title": "April price hikes are coming: What South Africans should buy now to save big before costs soar",
+          "publisher": "thestar.co.za",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeUh4Q056MFpIVUtCNnBFemRidDlsbG9rOEtRTDNnekJ6cEpaOUF5dTE4NmZySTl2UUlaQ09YRDN2NVpoU28wOG91Qk1YbGl4bmNfVE9MV2lyelZNYUlTcjhvX05mR0NwZkJncUJMcE5hWFc5RFZGamRpTTEtck9RTWQ0WTRZd1Frd2t2bDBPNXNEd2NWYTVSMS1YNlp1bFRJdkNyczBYMjlVN1RqblNORkpWdWxpUURxcHBzWWZ4djB0Tk0tempUZ0RtaE1ybU5DRXdj?oc=5",
+          "publishedAt": "2026-03-19T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeUh4Q056MFpIVUtCNnBFemRidDlsbG9rOEtRTDNnekJ6cEpaOUF5dTE4NmZySTl2UUlaQ09YRDN2NVpoU28wOG91Qk1YbGl4bmNfVE9MV2lyelZNYUlTcjhvX05mR0NwZkJncUJMcE5hWFc5RFZGamRpTTEtck9RTWQ0WTRZd1Frd2t2bDBPNXNEd2NWYTVSMS1YNlp1bFRJdkNyczBYMjlVN1RqblNORkpWdWxpUURxcHBzWWZ4djB0Tk0tempUZ0RtaE1ybU5DRXdj?oc=5\" target=\"_blank\">April price hikes are coming: What South Africans should buy now to save big before costs soar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestar.co.za</font>",
+          "matchedQuery": "South Africa panic buying shelves"
+        },
+        {
+          "title": "Retailers urged to avoid hiking prices of existing food stocks during Middle East crisis",
+          "publisher": "Business Day",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWnFPS0R2cjFsWEs1MHRNeDhVTXB6RWtyUHl1UFhjczl4c1RkamUxQnRtMEk4VzFvSkgyQkgydndPRFlINGtiRVZYZHdVZlBETGYxNElIcnpEXy1MRVJaUEJkODJsQ1BSdUxKZEVDTENoMVIwVUt4ZENGZGM5dHJvenZVcVZVRkpYYk1kaC0zSnVzelBVT0ZRX1lwY2VwdlZQcG10X2N5a2Z0OXp6dHpiRnJ0cDUyWndveGRPaXBDUldxUVQ0bFJ0eGhXX0ZOaVdJZTNRU3Uwbw?oc=5",
+          "publishedAt": "2026-03-17T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWnFPS0R2cjFsWEs1MHRNeDhVTXB6RWtyUHl1UFhjczl4c1RkamUxQnRtMEk4VzFvSkgyQkgydndPRFlINGtiRVZYZHdVZlBETGYxNElIcnpEXy1MRVJaUEJkODJsQ1BSdUxKZEVDTENoMVIwVUt4ZENGZGM5dHJvenZVcVZVRkpYYk1kaC0zSnVzelBVT0ZRX1lwY2VwdlZQcG10X2N5a2Z0OXp6dHpiRnJ0cDUyWndveGRPaXBDUldxUVQ0bFJ0eGhXX0ZOaVdJZTNRU3Uwbw?oc=5\" target=\"_blank\">Retailers urged to avoid hiking prices of existing food stocks during Middle East crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Day</font>",
+          "matchedQuery": "South Africa food shortages stores"
+        },
+        {
+          "title": "Hunger on trial — What two days of testimony revealed about SA’s food crisis",
+          "publisher": "Daily Maverick",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZlUzZjZIWEtaTG9EVFAyM2NjQU5UWC1uSjdEY2ZOU1QyZmtfc2UyTjdldlUzYkNpcWpjVTRGRXJIclNfM25JaVEyYl9iSnFKanZwQjR2b0t1NXpnUmJKSEs5dGotYWo1RHpjSXlIc1BzaVpsYkpWUVVZQnhSbVVDelBlcnp4dkZBb0FDZ0hIYWdMd2dpb0szdkFTcy02cVozMmxiV3QtUmd0S01zMVpxRXh5TzdNU3VPNko3dUJ6d2I5TDg?oc=5",
+          "publishedAt": "2026-03-15T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZlUzZjZIWEtaTG9EVFAyM2NjQU5UWC1uSjdEY2ZOU1QyZmtfc2UyTjdldlUzYkNpcWpjVTRGRXJIclNfM25JaVEyYl9iSnFKanZwQjR2b0t1NXpnUmJKSEs5dGotYWo1RHpjSXlIc1BzaVpsYkpWUVVZQnhSbVVDelBlcnp4dkZBb0FDZ0hIYWdMd2dpb0szdkFTcy02cVozMmxiV3QtUmd0S01zMVpxRXh5TzdNU3VPNko3dUJ6d2I5TDg?oc=5\" target=\"_blank\">Hunger on trial — What two days of testimony revealed about SA’s food crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Maverick</font>",
+          "matchedQuery": "South Africa food shortages stores"
+        }
+      ]
     },
     "firearms": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 2,
-      "summary": "Firearm-related policing signals are active, with recent seizure reporting and continued official attention to removing weapons from circulation.",
+      "updatedAt": "2026-05-13T13:04:29.850Z",
+      "score": 0,
+      "summary": "8 recent items matched. Newest tracked item: \"Marais: 60 illegal firearms seized across the Western Cape\".",
       "sourceIds": [
         "google-news-rss",
         "saps-newsroom"
       ],
       "evidence": [
         {
-          "title": "Operation Lockdown III members seize three firearms in Nyanga",
-          "publisher": "SAPS",
-          "url": "https://www.saps.gov.za/newsroom/msspeechdetail.php?nid=68419",
-          "publishedAt": "2026-05-08T01:13:00.000Z",
-          "matchedQuery": "South Africa firearm seizure SAPS",
-          "note": "The seizure included an R5 rifle and ammunition."
+          "title": "Marais: 60 illegal firearms seized across the Western Cape",
+          "publisher": "Smile 90.4FM",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVU1IYnR3Zk9NRWFIOUJRUTlJTXlqYW5wdGFBV2s3QTdudXMzZEJFSjdYdVJrb1hUdmRLTE91SDlBQVZMdlVYSk0tRUZwbkhURWQwMjE4ZGxfVXVWYlBIeVRqV3EwY210bW9OVnhPdjNNSkdkckFNZnNHZTRKcy1qQThpdGs3QzQ?oc=5",
+          "publishedAt": "2026-05-04T15:49:26.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPVU1IYnR3Zk9NRWFIOUJRUTlJTXlqYW5wdGFBV2s3QTdudXMzZEJFSjdYdVJrb1hUdmRLTE91SDlBQVZMdlVYSk0tRUZwbkhURWQwMjE4ZGxfVXVWYlBIeVRqV3EwY210bW9OVnhPdjNNSkdkckFNZnNHZTRKcy1qQThpdGs3QzQ?oc=5\" target=\"_blank\">Marais: 60 illegal firearms seized across the Western Cape</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smile 90.4FM</font>",
+          "matchedQuery": "South Africa firearm seizure SAPS"
         },
         {
-          "title": "SAPS destroys 13 859 firearms during its second firearm destruction process",
-          "publisher": "SAPS",
-          "url": "https://www.saps.gov.za/newsroom/msspeechdetail.php?nid=42974",
-          "publishedAt": "2026-02-19T00:00:00.000Z",
-          "matchedQuery": "South Africa weapons cache police",
-          "note": "This is a control measure, not a threat spike, but it keeps weapons circulation in view."
+          "title": "SAPS nab 15 000 for various crimes, 588 drunk driving cases in KZN",
+          "publisher": "thepost.co.za",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONy1WODVrNnJjdlB6SXZzWDl2eEIxNDZtUGZydDYzUF9fMUlrVld5MjdIanRmR0dNeVZFRE5EWG4zZWpRZ29UOGhmWDhnQml2V1BTNWNmNlY1eTRqX2tWeVNkcVl1T3VSRWMzTmp3aG1JaC1wcklwbWhCLVdFU1lDcHp1Y3lkbVdfT3JCZEJTNHNab1Fpa1NoZ25oT1dMelk0ay1RZEdYQkdlUHdfeVY4M1ZB?oc=5",
+          "publishedAt": "2026-05-01T02:40:42.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxONy1WODVrNnJjdlB6SXZzWDl2eEIxNDZtUGZydDYzUF9fMUlrVld5MjdIanRmR0dNeVZFRE5EWG4zZWpRZ29UOGhmWDhnQml2V1BTNWNmNlY1eTRqX2tWeVNkcVl1T3VSRWMzTmp3aG1JaC1wcklwbWhCLVdFU1lDcHp1Y3lkbVdfT3JCZEJTNHNab1Fpa1NoZ25oT1dMelk0ay1RZEdYQkdlUHdfeVY4M1ZB?oc=5\" target=\"_blank\">SAPS nab 15 000 for various crimes, 588 drunk driving cases in KZN</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thepost.co.za</font>",
+          "matchedQuery": "South Africa firearm seizure SAPS"
+        },
+        {
+          "title": "Arrested today, back tomorrow: Cape Town’s gun crime loophole",
+          "publisher": "Cape Town ETC",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdzA3ODh4RVplQm5lYWRMMzNIZG5xM2xIX25RYU1weVhuaU1hN1FTSE5mVGZUZGxCNzdrRTgyRVVEcF94RmlybEcxZGpXT252Zml5Y2FsRlU0SVpfMF90NWZiTEl4SEc5Y2hhSDVjVVR5enYtRDhRY0hIMmNEOGwtV0V2UTdka3dNN2F5Wm5ZdDYyc2piLWQyS2Nwbks?oc=5",
+          "publishedAt": "2026-04-27T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPdzA3ODh4RVplQm5lYWRMMzNIZG5xM2xIX25RYU1weVhuaU1hN1FTSE5mVGZUZGxCNzdrRTgyRVVEcF94RmlybEcxZGpXT252Zml5Y2FsRlU0SVpfMF90NWZiTEl4SEc5Y2hhSDVjVVR5enYtRDhRY0hIMmNEOGwtV0V2UTdka3dNN2F5Wm5ZdDYyc2piLWQyS2Nwbks?oc=5\" target=\"_blank\">Arrested today, back tomorrow: Cape Town’s gun crime loophole</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cape Town ETC</font>",
+          "matchedQuery": "South Africa rifle seizure arrest"
+        },
+        {
+          "title": "Alleged gang member arrested for cache of arms and ammunition in Western Cape",
+          "publisher": "The Citizen",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOVJiUmJ3T1FGRnBYdnhSRWdVSC1udWxjSEJfU1hGZlVkOTI0TTN5WnBuT0pnUG9ZSnRvbVZRQXlNOVBnWGIxVEY1cVhVYXRQa0dNNDJuNmZ5NkdWV1lpZnpDYldhY3NNQlQyUzBQczhRYTBUY3JFNUJIb1QtN29DTUc3bGZVRnNjeXFrYmJucFN4R09QZnl4MkNiZWJQV3pwWWRib1JxbkFrUGRjclJ6T3N2Zm4?oc=5",
+          "publishedAt": "2026-04-20T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOOVJiUmJ3T1FGRnBYdnhSRWdVSC1udWxjSEJfU1hGZlVkOTI0TTN5WnBuT0pnUG9ZSnRvbVZRQXlNOVBnWGIxVEY1cVhVYXRQa0dNNDJuNmZ5NkdWV1lpZnpDYldhY3NNQlQyUzBQczhRYTBUY3JFNUJIb1QtN29DTUc3bGZVRnNjeXFrYmJucFN4R09QZnl4MkNiZWJQV3pwWWRib1JxbkFrUGRjclJ6T3N2Zm4?oc=5\" target=\"_blank\">Alleged gang member arrested for cache of arms and ammunition in Western Cape</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Citizen</font>",
+          "matchedQuery": "South Africa weapons cache police"
+        },
+        {
+          "title": "South Africa: Mop-Up Operations Begin After Cape Storms - South African News Briefs - April 20, 2026",
+          "publisher": "allAfrica.com",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81d3ZDeThBYTZ5VXEtSk9uSTNGcUMydVcwTThhWlpYTXZfLVFtczR4S2VwbUZTeDd0UXlLbVF6WEdmZUFhM3ZaT3NWZWxxQlYzRUM1a2U5ZjFqTkk?oc=5",
+          "publishedAt": "2026-04-20T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE81d3ZDeThBYTZ5VXEtSk9uSTNGcUMydVcwTThhWlpYTXZfLVFtczR4S2VwbUZTeDd0UXlLbVF6WEdmZUFhM3ZaT3NWZWxxQlYzRUM1a2U5ZjFqTkk?oc=5\" target=\"_blank\">South Africa: Mop-Up Operations Begin After Cape Storms - South African News Briefs - April 20, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">allAfrica.com</font>",
+          "matchedQuery": "South Africa weapons cache police"
+        },
+        {
+          "title": "Police arrest alleged gang leader in Ravensmead",
+          "publisher": "EWN",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObURNbzg2aFFLdDRnMERnT3hhV0hyV3lBNzhTTFFFUXdfM2xReTZsYUlINW9jUHNkMldMTGRTRmhFY1pvRTJfbTc2SlpSNHBZcnZfM3p3cldmYm5JZEhkRTZjMHFXRlYwQjBxS3RTci1yc1lDamU5RzZoTEdzNFR2Vk9JTURndUE?oc=5",
+          "publishedAt": "2026-04-19T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxObURNbzg2aFFLdDRnMERnT3hhV0hyV3lBNzhTTFFFUXdfM2xReTZsYUlINW9jUHNkMldMTGRTRmhFY1pvRTJfbTc2SlpSNHBZcnZfM3p3cldmYm5JZEhkRTZjMHFXRlYwQjBxS3RTci1yc1lDamU5RzZoTEdzNFR2Vk9JTURndUE?oc=5\" target=\"_blank\">Police arrest alleged gang leader in Ravensmead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EWN</font>",
+          "matchedQuery": "South Africa weapons cache police"
+        },
+        {
+          "title": "Three Suspected Extortionists Arrested in Hout Bay, AK-47 Seized",
+          "publisher": "Central News South Africa",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeE9SR2cyWWNSRGI3OXEzQ0tyazJkOVZLYmhMMkNnb0lBbHF6LXNaakZFbVBYaGo4OHNrbExWdmhUS05KTFAzUlVzR3FkNHVBcVBqMDZ6N0RHOXQwQTBEYmRKSkdDOWtZTDJrU3dXVDRUUWVEYjdyeS1oaGp4UXJYYnZNVWc4NUY4WGYxOTBKQkhsZnpZ?oc=5",
+          "publishedAt": "2026-04-09T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOeE9SR2cyWWNSRGI3OXEzQ0tyazJkOVZLYmhMMkNnb0lBbHF6LXNaakZFbVBYaGo4OHNrbExWdmhUS05KTFAzUlVzR3FkNHVBcVBqMDZ6N0RHOXQwQTBEYmRKSkdDOWtZTDJrU3dXVDRUUWVEYjdyeS1oaGp4UXJYYnZNVWc4NUY4WGYxOTBKQkhsZnpZ?oc=5\" target=\"_blank\">Three Suspected Extortionists Arrested in Hout Bay, AK-47 Seized</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Central News South Africa</font>",
+          "matchedQuery": "South Africa rifle seizure arrest"
+        },
+        {
+          "title": "Weapons Seized as Two Suspects Arrested in Cape Flats Operation",
+          "publisher": "Central News South Africa",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHlORU90Ym1ZeE9ZVDd6cXNhT3FTdWZjX0JZRXk4aHpidU5pUXNRM0VPQjVBMUNWYk1nQTR5Zm9oRm1TdmlEdE9hWlhpcjNYYzRGOUU5VWJaX01QaXFoUE44RzY1WnhsU2NpOWhYRjZOalcxTml5NHZ3NGNmV29FT2x1RDNnUGRrZG4yRlcwaTJLeG5n?oc=5",
+          "publishedAt": "2026-04-08T07:00:00.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHlORU90Ym1ZeE9ZVDd6cXNhT3FTdWZjX0JZRXk4aHpidU5pUXNRM0VPQjVBMUNWYk1nQTR5Zm9oRm1TdmlEdE9hWlhpcjNYYzRGOUU5VWJaX01QaXFoUE44RzY1WnhsU2NpOWhYRjZOalcxTml5NHZ3NGNmV29FT2x1RDNnUGRrZG4yRlcwaTJLeG5n?oc=5\" target=\"_blank\">Weapons Seized as Two Suspects Arrested in Cape Flats Operation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Central News South Africa</font>",
+          "matchedQuery": "South Africa rifle seizure arrest"
         }
       ]
     },
     "misinfo": {
-      "updatedAt": "2026-05-12T22:30:00.000Z",
-      "score": 2,
-      "summary": "Misinformation is currently a live operational issue, especially around fake xenophobia and panic-content circulation.",
+      "updatedAt": "2026-05-13T13:04:31.133Z",
+      "score": 3,
+      "summary": "8 recent items matched. Newest tracked item: \"Xenophobia Concerns Trigger Ghana Evacuation Move\".",
       "sourceIds": [
         "google-news-rss",
         "gov-cabinet"
       ],
       "evidence": [
         {
-          "title": "Cabinet sounds alarm on fake images and videos about attacks on foreign nationals",
-          "publisher": "eNCA",
-          "url": "https://www.enca.com/news/cabinet-sounds-alarm-fake-images-and-videos-about-attacks-foreign-nationals",
-          "publishedAt": "2026-05-07T14:53:00.000Z",
-          "matchedQuery": "South Africa fake videos misinformation protests",
-          "note": "Cabinet directly addressed manipulated content linked to current protest narratives."
+          "title": "Xenophobia Concerns Trigger Ghana Evacuation Move",
+          "publisher": "ynews.digital",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSEZPVG5HMDlLZ2JmWHA5ZDVPMEFNNUYwcVlmRFJfUE4xaHJHdFRBUnluM2FKWmNYbDRaZmJCMU16WW01RVo3MkczYUxVQkJNa0E1b2JOQ0FndkJNamlaX3RnUVdQdEJsMzdkS2E2Sm00WllZSjJwcmFUdnAzTVdSRVZqWE9wTlBB?oc=5",
+          "publishedAt": "2026-05-13T09:43:03.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSEZPVG5HMDlLZ2JmWHA5ZDVPMEFNNUYwcVlmRFJfUE4xaHJHdFRBUnluM2FKWmNYbDRaZmJCMU16WW01RVo3MkczYUxVQkJNa0E1b2JOQ0FndkJNamlaX3RnUVdQdEJsMzdkS2E2Sm00WllZSjJwcmFUdnAzTVdSRVZqWE9wTlBB?oc=5\" target=\"_blank\">Xenophobia Concerns Trigger Ghana Evacuation Move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ynews.digital</font>",
+          "matchedQuery": "South Africa fake videos misinformation protests"
         },
         {
-          "title": "WhatsApp crime groups spreading misinformation and fuelling fear in KZN",
-          "publisher": "East Coast Radio",
-          "url": "https://www.ecr.co.za/news/news/whatsapp-crime-groups-spreading-misinformation/",
-          "publishedAt": "2026-02-23T12:38:00.000Z",
-          "matchedQuery": "South Africa WhatsApp panic fake news",
-          "note": "A reminder that local panic channels create real behavioural effects."
+          "title": "Who is funding these anti-migrant protests? SA govt urged to probe organisers",
+          "publisher": "IOL",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZmxwanhjYW9rdkEtN1ZUY0paNTB2WkJlcFpvbXZVaFdkS1ZuV0RGMjNzWHAyZlFMcWRqUzVBb1VOQnBPUDAxVHpKREtoWWk3c19ETmYwQUplT01YMVBrbEt4a21qOHRCR0RiV3NVXzQwNm9NV3kwM2VkSmgxaHQtX3dIcXFuc2FEZW1mb1pOc3UyS0tiN1o0QjM4WmpraGhDR0l1SjNNQkZzNGlXQUtXVzdoMmZ2SC1fTzB5eQ?oc=5",
+          "publishedAt": "2026-05-12T03:53:43.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOZmxwanhjYW9rdkEtN1ZUY0paNTB2WkJlcFpvbXZVaFdkS1ZuV0RGMjNzWHAyZlFMcWRqUzVBb1VOQnBPUDAxVHpKREtoWWk3c19ETmYwQUplT01YMVBrbEt4a21qOHRCR0RiV3NVXzQwNm9NV3kwM2VkSmgxaHQtX3dIcXFuc2FEZW1mb1pOc3UyS0tiN1o0QjM4WmpraGhDR0l1SjNNQkZzNGlXQUtXVzdoMmZ2SC1fTzB5eQ?oc=5\" target=\"_blank\">Who is funding these anti-migrant protests? SA govt urged to probe organisers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IOL</font>",
+          "matchedQuery": "South Africa fake videos misinformation protests"
+        },
+        {
+          "title": "Ramaphosa Condemns Attacks on Foreign Nationals in South Africa",
+          "publisher": "Mabumbe",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb3Q3Z1B1anoyT2cwYzlLSE9idUFqZERPd3c2VVhaOV9BempjR3RNdkJEcjFPQjBlS1NiaV9LMFRIUTBfTllDNmsxYVdJNExnMHp1Q21tbnBCdEw0T0JNdURuSFpLNGFHa1RDUWs2cXBoRXhzcG92WHhsVkJfM1FsY0pmVVgwOVV4ZjhZRFJQRkVETFVSdXc?oc=5",
+          "publishedAt": "2026-05-11T13:14:34.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQb3Q3Z1B1anoyT2cwYzlLSE9idUFqZERPd3c2VVhaOV9BempjR3RNdkJEcjFPQjBlS1NiaV9LMFRIUTBfTllDNmsxYVdJNExnMHp1Q21tbnBCdEw0T0JNdURuSFpLNGFHa1RDUWs2cXBoRXhzcG92WHhsVkJfM1FsY0pmVVgwOVV4ZjhZRFJQRkVETFVSdXc?oc=5\" target=\"_blank\">Ramaphosa Condemns Attacks on Foreign Nationals in South Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mabumbe</font>",
+          "matchedQuery": "South Africa fake videos misinformation protests"
+        },
+        {
+          "title": "South Africa on edge as ‘March and March’ protests fuel rising anti-migrant tensions",
+          "publisher": "IOL",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM0pTbm5TYXpKR2J4TFNNM0ZSVTBPUXFxdC1kc1VUdnQ3Vkh5OGtIUGpqTTh0cE5qemVwdWNnRFlaemx2Y1d3ZDNCYWRHakhpWmYydTQ4NFZ0LXE0SG0zc0VlM2FUMG01ZnN5eU1FWWFIeDJkbzZOVkRMTHN6b3hHbm9wNVpsQXpRRWtGT3YyNFpxcUZXM2FUVnNXRk1TX2tqNkxPbjlNb1hGZDB5OGlsbVpoVk12N25ZYnJpcTFSVldBZlVz?oc=5",
+          "publishedAt": "2026-05-09T07:01:22.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOM0pTbm5TYXpKR2J4TFNNM0ZSVTBPUXFxdC1kc1VUdnQ3Vkh5OGtIUGpqTTh0cE5qemVwdWNnRFlaemx2Y1d3ZDNCYWRHakhpWmYydTQ4NFZ0LXE0SG0zc0VlM2FUMG01ZnN5eU1FWWFIeDJkbzZOVkRMTHN6b3hHbm9wNVpsQXpRRWtGT3YyNFpxcUZXM2FUVnNXRk1TX2tqNkxPbjlNb1hGZDB5OGlsbVpoVk12N25ZYnJpcTFSVldBZlVz?oc=5\" target=\"_blank\">South Africa on edge as ‘March and March’ protests fuel rising anti-migrant tensions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IOL</font>",
+          "matchedQuery": "South Africa fake videos misinformation protests"
+        },
+        {
+          "title": "Cabinet slams fake videos claiming attacks on foreign nationals",
+          "publisher": "sundayindependent.co.za",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMTVhUXVXdWM5b0tTU3pCTFJ0V0V6ZlRtRlhUZ1labVI0cXZWMW96WnNfQW5vLVhSQ3Q4S1RkLUplenM3SGoxOW50NVF5T0NIQk5KQ2VieFk3Y1RvaUxYTEZnRTlKYjhtVUhWWmEzdjJyM0FfNjlzZ0owSW5sRDV1dU5wLU9ObjhwdnhuTmZ6R29OTEpxakx1YkR2TjYyRzBmclJQLTBEdFB0YktpNjg4OWhBOTQxZFJKdW5oRFNB?oc=5",
+          "publishedAt": "2026-05-08T09:29:36.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPMTVhUXVXdWM5b0tTU3pCTFJ0V0V6ZlRtRlhUZ1labVI0cXZWMW96WnNfQW5vLVhSQ3Q4S1RkLUplenM3SGoxOW50NVF5T0NIQk5KQ2VieFk3Y1RvaUxYTEZnRTlKYjhtVUhWWmEzdjJyM0FfNjlzZ0owSW5sRDV1dU5wLU9ObjhwdnhuTmZ6R29OTEpxakx1YkR2TjYyRzBmclJQLTBEdFB0YktpNjg4OWhBOTQxZFJKdW5oRFNB?oc=5\" target=\"_blank\">Cabinet slams fake videos claiming attacks on foreign nationals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sundayindependent.co.za</font>",
+          "matchedQuery": "South Africa false protest warning police"
+        },
+        {
+          "title": "Two men were shot in Kraaifontein, Cape Town in April 2026, but viral footage of the aftermath was AI-generated",
+          "publisher": "Africa Check",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejZSZVRCMVEwUWw5c2ZkbWE5T0xHNUhFSlItZ2ZfWkk2SUg4VnB3SFItRGtMNE04eFhwZjNFaTdHYkcyMFBQSjd1SXpXRkRoandLQmtDcFB5Q0RDc1BxYk9TT3JSVjFHb01ZNC1wUmxLM3lnem5IV2wtZE83OEszQnZwajlFeEhuMTNYS0xOUDZFYnZDLUxhX1pUbmNMYWFqVGhuRU9fWE1CbUtKOFRaVzFfNmRuazA2dVZxZg?oc=5",
+          "publishedAt": "2026-05-08T07:37:29.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPejZSZVRCMVEwUWw5c2ZkbWE5T0xHNUhFSlItZ2ZfWkk2SUg4VnB3SFItRGtMNE04eFhwZjNFaTdHYkcyMFBQSjd1SXpXRkRoandLQmtDcFB5Q0RDc1BxYk9TT3JSVjFHb01ZNC1wUmxLM3lnem5IV2wtZE83OEszQnZwajlFeEhuMTNYS0xOUDZFYnZDLUxhX1pUbmNMYWFqVGhuRU9fWE1CbUtKOFRaVzFfNmRuazA2dVZxZg?oc=5\" target=\"_blank\">Two men were shot in Kraaifontein, Cape Town in April 2026, but viral footage of the aftermath was AI-generated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Africa Check</font>",
+          "matchedQuery": "South Africa false protest warning police"
+        },
+        {
+          "title": "Fake videos aim to destabilise South Africa – Ntshavheni",
+          "publisher": "African Insider",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNakx0Z013bVJWd2tFanBzNDR4SlQ3ZTZONzR6b0h3ZEJvUEJ2S1BfMTIzVFl3N0ItRWpuM3d2Z3dNUXd0YzE2eWM1YldCQmcxdjJoMDZKenZtMkhEd3dfUUtaVGxEQ0lTN0hnM0xKODA2dTNjMnNzOFVLMUtlejR4NVlCU21wU2ExMjA5cnlRR21ScHhTeUhnLWhnTQ?oc=5",
+          "publishedAt": "2026-05-08T05:00:02.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNakx0Z013bVJWd2tFanBzNDR4SlQ3ZTZONzR6b0h3ZEJvUEJ2S1BfMTIzVFl3N0ItRWpuM3d2Z3dNUXd0YzE2eWM1YldCQmcxdjJoMDZKenZtMkhEd3dfUUtaVGxEQ0lTN0hnM0xKODA2dTNjMnNzOFVLMUtlejR4NVlCU21wU2ExMjA5cnlRR21ScHhTeUhnLWhnTQ?oc=5\" target=\"_blank\">Fake videos aim to destabilise South Africa – Ntshavheni</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">African Insider</font>",
+          "matchedQuery": "South Africa fake videos misinformation protests"
+        },
+        {
+          "title": "Africa: South Africa Denies Xenophobia Surge As Fake Videos Fuel Diplomatic Tension Across Africa",
+          "publisher": "allAfrica.com",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HN015MUZpUUxHUmNlQ1R1My1lV3dybmdCTUtPZHRybVlvLUtVaVZESWlJVkFwQm9CZnBXRjhrdFRSdG9YdDJrNFBOa0FKMkxFam1zdnJYRDl6dnM?oc=5",
+          "publishedAt": "2026-05-07T15:17:58.000Z",
+          "note": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HN015MUZpUUxHUmNlQ1R1My1lV3dybmdCTUtPZHRybVlvLUtVaVZESWlJVkFwQm9CZnBXRjhrdFRSdG9YdDJrNFBOa0FKMkxFam1zdnJYRDl6dnM?oc=5\" target=\"_blank\">Africa: South Africa Denies Xenophobia Surge As Fake Videos Fuel Diplomatic Tension Across Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">allAfrica.com</font>",
+          "matchedQuery": "South Africa fake videos misinformation protests"
         }
       ]
     }
