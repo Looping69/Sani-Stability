@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster";
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 
 import { Card, CardContent } from "@/components/ui/Card";
 import { useIndicators } from "@/context/IndicatorsProvider";
@@ -8,11 +11,40 @@ import { buildMapIncidents, summariseMapIncidents } from "@/utils/geoIncidents";
 
 const SOUTH_AFRICA_CENTER = [-29, 24];
 const SEVERITIES = ["high", "medium", "low"];
+const REGION_VIEWPORTS = [
+  { id: "za", label: "South Africa", center: [-29, 24], zoom: 5 },
+  { id: "gauteng", label: "Gauteng", center: [-26.2041, 28.0473], zoom: 8 },
+  { id: "kzn", label: "KZN", center: [-29.6, 30.4], zoom: 7 },
+  { id: "western-cape", label: "Western Cape", center: [-33.9249, 18.4241], zoom: 7 },
+  { id: "north-west", label: "North West", center: [-26.8521, 26.6667], zoom: 8 },
+  { id: "limpopo", label: "Limpopo", center: [-23.9045, 29.4689], zoom: 7 },
+];
 
 function severityClass(level) {
   if (level === "high") return "bg-red-500";
   if (level === "medium") return "bg-orange-500";
   return "bg-sky-500";
+}
+
+function createIncidentIcon(incident, selected) {
+  const size = incident.severity === "high" ? 18 : incident.severity === "medium" ? 15 : 12;
+  return L.divIcon({
+    className: "sani-incident-marker",
+    html: `<span style="display:block;width:${size}px;height:${size}px;border-radius:9999px;background:${incident.color};border:${selected ? 4 : 2}px solid white;box-shadow:0 0 0 4px rgba(15,23,42,.45),0 10px 22px rgba(0,0,0,.35);"></span>`,
+    iconSize: [size + 8, size + 8],
+    iconAnchor: [(size + 8) / 2, (size + 8) / 2],
+  });
+}
+
+function createClusterIcon(cluster) {
+  const count = cluster.getChildCount();
+  const tier = count >= 10 ? "large" : count >= 5 ? "medium" : "small";
+  const size = tier === "large" ? 54 : tier === "medium" ? 46 : 38;
+  return L.divIcon({
+    className: "sani-cluster-marker",
+    html: `<div style="width:${size}px;height:${size}px;border-radius:9999px;display:grid;place-items:center;background:rgba(14,165,233,.92);border:2px solid rgba(255,255,255,.9);box-shadow:0 14px 34px rgba(0,0,0,.4);color:white;font-weight:900;font-size:14px;">${count}</div>`,
+    iconSize: [size, size],
+  });
 }
 
 function ToggleChip({ active, children, onClick }) {
@@ -26,6 +58,21 @@ function ToggleChip({ active, children, onClick }) {
       }`}
     >
       {children}
+    </button>
+  );
+}
+
+function RegionButton({ region, active, onClick }) {
+  return (
+    <button
+      onClick={onClick}
+      className={`rounded-2xl border px-3 py-2 text-xs font-semibold transition-colors ${
+        active
+          ? "border-cyan-300/70 bg-cyan-300/15 text-cyan-100"
+          : "border-white/10 bg-slate-950/60 text-slate-400 hover:border-white/20 hover:text-slate-200"
+      }`}
+    >
+      {region.label}
     </button>
   );
 }
@@ -62,6 +109,7 @@ export function LiveMap() {
   const markerLayer = useRef(null);
   const markerRefs = useRef(new Map());
   const [selected, setSelected] = useState(null);
+  const [activeRegion, setActiveRegion] = useState("za");
   const [activeSeverities, setActiveSeverities] = useState(new Set(SEVERITIES));
   const [activeCategories, setActiveCategories] = useState(new Set());
 
@@ -118,13 +166,33 @@ export function LiveMap() {
     });
   }
 
+  function jumpToRegion(region) {
+    setActiveRegion(region.id);
+    const map = mapInstance.current;
+    if (map) {
+      map.flyTo(region.center, region.zoom, { duration: 0.8 });
+    }
+  }
+
+  function fitVisibleIncidents() {
+    const map = mapInstance.current;
+    if (!map || !filteredIncidents.length) return;
+
+    const bounds = L.latLngBounds(filteredIncidents.map((incident) => [incident.lat, incident.lng]));
+    map.fitBounds(bounds.pad(0.28), { animate: true, maxZoom: 9 });
+    setActiveRegion("custom");
+  }
+
   function selectIncident(incident) {
     setSelected(incident);
     const map = mapInstance.current;
     const marker = markerRefs.current.get(incident.id);
     if (map && marker) {
-      map.setView([incident.lat, incident.lng], Math.max(map.getZoom(), 7), { animate: true });
-      marker.openPopup();
+      if (markerLayer.current?.zoomToShowLayer) {
+        markerLayer.current.zoomToShowLayer(marker, () => marker.openPopup());
+      }
+      map.flyTo([incident.lat, incident.lng], Math.max(map.getZoom(), 7), { duration: 0.6 });
+      setActiveRegion("custom");
     }
   }
 
@@ -140,7 +208,13 @@ export function LiveMap() {
       attribution: "OpenStreetMap contributors",
     }).addTo(map);
 
-    markerLayer.current = L.layerGroup().addTo(map);
+    markerLayer.current = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      spiderfyOnMaxZoom: true,
+      disableClusteringAtZoom: 10,
+      maxClusterRadius: 46,
+      iconCreateFunction: createClusterIcon,
+    }).addTo(map);
     mapInstance.current = map;
 
     return () => {
@@ -158,17 +232,13 @@ export function LiveMap() {
     markerRefs.current.clear();
 
     filteredIncidents.forEach((incident) => {
-      const marker = L.circleMarker([incident.lat, incident.lng], {
-        radius: incident.severity === "high" ? 10 : incident.severity === "medium" ? 8 : 6,
-        color: incident.color,
-        fillColor: incident.color,
-        fillOpacity: 0.85,
-        weight: selected?.id === incident.id ? 4 : 2,
+      const marker = L.marker([incident.lat, incident.lng], {
+        icon: createIncidentIcon(incident, selected?.id === incident.id),
       });
 
       marker.bindPopup(`<strong>${incident.locationLabel}</strong><br>${incident.title}`);
       marker.on("click", () => setSelected(incident));
-      marker.addTo(markerLayer.current);
+      markerLayer.current.addLayer(marker);
       markerRefs.current.set(incident.id, marker);
     });
 
@@ -186,7 +256,7 @@ export function LiveMap() {
               <p className="text-xs uppercase tracking-[0.25em] text-slate-400">Operational map</p>
               <h2 className="mt-1 text-xl font-bold sm:text-2xl">Live evidence geography</h2>
               <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-300">
-                Free OpenStreetMap layer with pins generated from evidence that has a known or inferred location.
+                Free OpenStreetMap layer with clustered pins generated from evidence that has a known or inferred location.
               </p>
             </div>
 
@@ -207,6 +277,27 @@ export function LiveMap() {
           </div>
 
           <div className="mt-4 space-y-3">
+            <div>
+              <p className="mb-2 text-xs uppercase tracking-[0.18em] text-slate-500">Map view</p>
+              <div className="flex flex-wrap gap-2">
+                {REGION_VIEWPORTS.map((region) => (
+                  <RegionButton
+                    key={region.id}
+                    region={region}
+                    active={activeRegion === region.id}
+                    onClick={() => jumpToRegion(region)}
+                  />
+                ))}
+                <button
+                  onClick={fitVisibleIncidents}
+                  disabled={!filteredIncidents.length}
+                  className="rounded-2xl border border-white/10 bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-950 transition-colors hover:bg-white disabled:cursor-not-allowed disabled:opacity-40"
+                >
+                  Fit visible
+                </button>
+              </div>
+            </div>
+
             <div className="flex flex-wrap gap-2">
               {SEVERITIES.map((severity) => (
                 <ToggleChip
